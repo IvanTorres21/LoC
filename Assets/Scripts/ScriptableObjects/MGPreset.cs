@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewMG", menuName = "New MG Preset")]
 public class MGPreset : ScriptableObject
 {
+    public GameObject prefab;
+
     [Header("Basic Info")]
     public string MG_name;
     public int age;
@@ -23,4 +25,9 @@ public class MGPreset : ScriptableObject
     public int baseDEF;
     public int modATK;
     public int modDEF;
+
+    [Header("Limits info")]
+    public int MAXTIREDNESS;
+    public float depression;
+    public int breakingPoint; // number of days with 0 happiness
 }

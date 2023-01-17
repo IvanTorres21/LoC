@@ -5,5 +5,7 @@ public enum BuildingType
     HOBBY,
     TRAINING,
     HELP,
-    MAINHALL
+    MAINHALL,
+    DECORATION,
+    WORK
 }

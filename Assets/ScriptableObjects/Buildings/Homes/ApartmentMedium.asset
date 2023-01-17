@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
+  m_Name: ApartmentMedium
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  cost: 2500
+  maintenance: 80
+  hope: 0
+  maxPeople: 25
+  size: 2
+  type: 0
+  luxuryValue: 1
+  activityType: 1
+  passiveBuilding: 0
+  relaxIndex: 15
+  happyIndex: 15
+  xpIndex: 0
+  foodAmount: 0
+  trainingAmount: 0
+  hobbyType: 

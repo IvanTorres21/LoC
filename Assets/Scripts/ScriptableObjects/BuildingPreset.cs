@@ -15,7 +15,12 @@ public class BuildingPreset : ScriptableObject
     public BuildingSize size;
     public BuildingType type;
     public Luxury luxuryValue;
+    public SocialType activityType;
+    public bool passiveBuilding;
 
+    public int relaxIndex;
+    public int happyIndex;
+    public int xpIndex;
 
     [Header("Food Data")]
     public int foodAmount;
@@ -25,5 +30,6 @@ public class BuildingPreset : ScriptableObject
 
     [Header("Hobby Data")]
     public List<HobbyType> hobbyType;
+    
 
 }
