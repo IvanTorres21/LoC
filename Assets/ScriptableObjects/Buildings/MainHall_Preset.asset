@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
   m_Name: MainHall_Preset
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 5159964862603300822, guid: fef671fc86c815446b1029d3a5ddbfca, type: 3}
   cost: 0
   maintenance: 0
   hope: 200

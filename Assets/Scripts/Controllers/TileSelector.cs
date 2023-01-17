@@ -10,6 +10,7 @@ public class TileSelector : MonoBehaviour
 
     public static TileSelector instance;
 
+    [SerializeField] private float offset;
 
     private void Awake()
     {
@@ -40,7 +41,7 @@ public class TileSelector : MonoBehaviour
         
         if(plane.Raycast(ray, out rayOut))
         {
-            tile = ray.GetPoint(rayOut) - new Vector3(.5f, 0f, .5f);
+            tile = ray.GetPoint(rayOut) - new Vector3(offset, 0f, offset);
             tile = new Vector3(Mathf.CeilToInt(tile.x), 0f, Mathf.CeilToInt(tile.z));
         }
 
