@@ -12,6 +12,7 @@ public class MGPreset : ScriptableObject
     public int age;
     public List<Skills> skills;
     public List<Problems> problems;
+    public Sprite card;
 
     [Header("Preferences")]
     public List<BuildingType> likes;

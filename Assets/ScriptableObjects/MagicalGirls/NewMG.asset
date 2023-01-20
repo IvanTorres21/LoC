@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
+  m_Name: NewMG
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  MG_name: 
+  age: 0
+  skills: 
+  problems: 
+  card: {fileID: 21300000, guid: bde80db6986c5de44aefbb2d61694331, type: 3}
+  likes: 
+  dislikes: 
+  luxuryLevel: 0
+  foodConsumption: 0
+  socialType: 0
+  baseATK: 0
+  baseDEF: 0
+  modATK: 0
+  modDEF: 0
+  MAXTIREDNESS: 0
+  depression: 0
+  breakingPoint: 0

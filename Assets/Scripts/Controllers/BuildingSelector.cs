@@ -46,14 +46,14 @@ public class BuildingSelector : MonoBehaviour
             {
                 building.transform.Rotate(new Vector3(0f, -90f, 0f));
             }
-            if (Input.GetMouseButtonDown(0) && canPlace && !EventSystem.current.IsPointerOverGameObject())
+            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
             {
                 if(!TileSelector.instance.CheckIsOccupied())
                 {
                     GameObject bd = Instantiate(currentPreset.prefab, currentPos, building.transform.rotation);
                     LoCManager.instance.OnCreatedBuilding(bd.GetComponent<Building>());
                 }
-                    
+                
 
             }
         } else
@@ -84,12 +84,15 @@ public class BuildingSelector : MonoBehaviour
         chooseTileRoutine = StartCoroutine(ChooseTile());
     }
 
-    private void EndPlacemet()
+    public void EndPlacemet()
     {
-        Destroy(indicator.transform.GetChild(0).gameObject);
-        indicator.SetActive(false);
-        isPlacing = false;
-        currentPreset = null;
+        if(isPlacing)
+        {
+            Destroy(indicator.transform.GetChild(0).gameObject);
+            indicator.SetActive(false);
+            isPlacing = false;
+            currentPreset = null;
+        }
     }
 
     public void DestroyBuilding()

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 
 public class LoCManager : MonoBehaviour
@@ -9,15 +10,19 @@ public class LoCManager : MonoBehaviour
 
     private int maintenanceTotal;
 
-    public int hope { get; private set; }
-    private int karmicPower;
+    public int hope { get; private set; } = 1000;
+    public int karmicPower { get; private set; } = 20;
     private int avgHappiness;
     private int genHope;
 
     private Building mainHall;
 
-    private List<MagicalGirl> magicalGirls;
+    public List<MagicalGirl> magicalGirls { get; private set; }
     private List<Building> buildings;
+
+    [SerializeField] private TextMeshProUGUI txtHope;
+    [SerializeField] private TextMeshProUGUI txtKP;
+    [SerializeField] private TextMeshProUGUI txtHappy;
 
     private void Awake()
     {
@@ -28,6 +33,11 @@ public class LoCManager : MonoBehaviour
         {
             Destroy(this);
         }
+    }
+
+    private void Start()
+    {
+        UpdateGui();
     }
 
     public void EndDay()
@@ -126,23 +136,34 @@ public class LoCManager : MonoBehaviour
         avgHappiness += mg.happiness;
     }
 
+    private void UpdateGui()
+    {
+        txtKP.text = karmicPower.ToString();
+        txtHappy.text = avgHappiness.ToString() + "%";
+        txtHope.text = hope.ToString();
+    }
+
     public void OnCreatedBuilding(Building building)
     {
-
+        hope -= building.preset.cost;
+        UpdateGui();
     }
 
     public void OnDestroyedBuilding(Building building)
     {
-
+        hope += building.preset.cost / 5;
+        UpdateGui();
     }
 
     public void OnAddedMagicalGirl(MagicalGirl mg)
     {
-
+        magicalGirls.Add(mg);
+        UpdateGui();
     }
 
     public void OnMagicalGirlDied(MagicalGirl mg)
     {
 
+        UpdateGui();
     }
 }
