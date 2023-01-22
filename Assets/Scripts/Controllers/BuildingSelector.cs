@@ -16,7 +16,7 @@ public class BuildingSelector : MonoBehaviour
 
     
     private GameObject building; // Model of the building to place
-    private GameObject selectedBuilding; // Gameobject that's been selected
+    public GameObject selectedBuilding { get; private set; } // Gameobject that's been selected
 
     [Header("Building placer")]
     [SerializeField] private GameObject indicator;
@@ -110,10 +110,15 @@ public class BuildingSelector : MonoBehaviour
         selectedBuilding = TileSelector.instance.GetClickedBuilding();
         if(selectedBuilding != null)
         {
-            
             infoPanel.SetActive(true);
+            Building building = selectedBuilding.GetComponent<Building>();
+            if(building.preset.type == BuildingType.HOUSE)
+                this.gameObject.GetComponent<GuiController>().SeeHomeDetails(building);
+            else
+                this.gameObject.GetComponent<GuiController>().SeeBuildingDetails(building);
         } else
         {
+            this.gameObject.GetComponent<GuiController>().CloseMenus();
             infoPanel.SetActive(false);
         }
     }

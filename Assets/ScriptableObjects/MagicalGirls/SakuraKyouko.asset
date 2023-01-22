@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
-  m_Name: NewMG
+  m_Name: SakuraKyouko
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  MG_name: 
-  age: 0
+  prefab: {fileID: 4962329621965457443, guid: 532fc33d5e1b2b34bb31b60e2de8932e, type: 3}
+  MG_name: Sakura Kyouko
+  age: 15
   skills: 
   problems: 
   card: {fileID: 21300000, guid: bde80db6986c5de44aefbb2d61694331, type: 3}
-  likes: 
-  dislikes: 
+  likes: 01000000000000000300000002000000
+  dislikes: 0600000004000000
   luxuryLevel: 0
-  foodConsumption: 0
-  socialType: 0
-  baseATK: 0
-  baseDEF: 0
-  modATK: 0
-  modDEF: 0
-  MAXTIREDNESS: 0
-  depression: 0
-  breakingPoint: 0
+  foodConsumption: 8
+  socialType: 1
+  baseATK: 1600
+  baseDEF: 1200
+  modATK: 2
+  modDEF: 1
+  MAXTIREDNESS: 90
+  depression: 0.1
+  breakingPoint: 5

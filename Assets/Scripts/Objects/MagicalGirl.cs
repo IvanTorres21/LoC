@@ -1,18 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MagicalGirl : MonoBehaviour
 {
     public MGPreset preset;
 
-    public int happiness { get; private set; }
-    private int level;
-    private int xp;
+    public bool isAlive = true;
+
+    public int happiness { get; private set; } = 80;
+    private int level = 1;
+    private int xp = 0;
     public int tiredness { get; private set; }
 
     public Building currentLocation { get; private set; }
     public Building home { get; private set; }
+
+    [Header("Magical Girl Panel UI")]
+    public Image cardImg;
+    public TextMeshProUGUI txtName;
+    public TextMeshProUGUI txtXp;
+    public TextMeshProUGUI txtLevel;
+    public TextMeshProUGUI txtHappy;
+    public TextMeshProUGUI txtTiredness;
+    public TextMeshProUGUI txtLikes;
+    public TextMeshProUGUI txtDislikes;
+    public TextMeshProUGUI txtAtk;
+    public TextMeshProUGUI txtDef;
 
     public void ChangeLocation(Building newLocation)
     {
@@ -62,7 +78,6 @@ public class MagicalGirl : MonoBehaviour
                     level = 10;
                     break;
                 default:
-                    level = 1;
                     break;
             }
         }
@@ -82,7 +97,7 @@ public class MagicalGirl : MonoBehaviour
     public void IncreaseHappiness(int amount, BuildingPreset building)
     {
         float modifier = PositiveModifier(building.type, building.activityType, building.luxuryValue);
-        modifier *= preset.depression;
+        modifier -= preset.depression;
 
         happiness += (int)(amount * modifier);
 
@@ -103,7 +118,7 @@ public class MagicalGirl : MonoBehaviour
     public void DecreaseHappiness(int amount, BuildingPreset building)
     {
         float modifier = NegativeModifier(building.type, building.activityType, building.luxuryValue);
-        modifier *= preset.depression;
+        modifier += preset.depression;
 
         happiness -= (int)(amount * modifier);
 
@@ -159,5 +174,89 @@ public class MagicalGirl : MonoBehaviour
         }
 
         return modifier;
+    }
+
+    public int CalculateAtkModifier()
+    {
+        float mod = preset.modATK * level; // 1 * 3 = 3
+        mod = mod / 10; // .3
+        mod += 1; // 1.3
+        return (int) (preset.baseATK * mod);
+    }
+
+    public int CalculateDefModifier()
+    {
+        float mod = preset.modDEF * level; // 1 * 3 = 3
+        mod = mod / 10; // .3
+        mod += 1; // 1.3
+        return (int)(preset.baseDEF * mod);
+    }
+
+    private string UntilNextLevel()
+    {
+        string result = "";
+        result = xp + "/";
+        switch(level)
+        {
+            case 1:
+                result += "200";
+                break;
+            case 2:
+                result += "500";
+                break;
+            case 3:
+                result += "1000";
+                break;
+            case 4:
+                result += "1700";
+                break;
+            case 5:
+                result += "2500";
+                break;
+            case 6:
+                result += "3300";
+                break;
+            case 7:
+                result += "4000";
+                break;
+            case 8:
+                result += "5000";
+                break;
+            case 9:
+                result += "6500";
+                break;
+            case 10:
+                result += "6500";
+                break;
+
+        }
+        return result;
+    }
+
+    public void FillGUIData()
+    {
+        cardImg.sprite = preset.card;
+        txtName.text = preset.name;
+        txtLevel.text = level.ToString();
+        txtXp.text = UntilNextLevel();
+        txtAtk.text = CalculateAtkModifier().ToString();
+        txtDef.text = CalculateDefModifier().ToString();
+        txtHappy.text = "Happiness: " + happiness +"%";
+        txtTiredness.text = "Tiredness: " + tiredness + "%";
+        txtLikes.text = "";
+        txtDislikes.text = "";
+        foreach(BuildingType type in preset.likes)
+        {
+            txtLikes.text += type.ToString() + "\n";
+        }
+        foreach(BuildingType type in preset.dislikes)
+        {
+            txtDislikes.text += type.ToString() + "\n";
+        }
+    }
+
+    public void moveLocation(Building newLoc)
+    {
+        currentLocation = newLoc;
     }
 }

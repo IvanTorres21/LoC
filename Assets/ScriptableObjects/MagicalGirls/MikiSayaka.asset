@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
-  m_Name: NewMG 1
+  m_Name: MikiSayaka
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  MG_name: 
-  age: 0
+  prefab: {fileID: 5253509575518835172, guid: d7fd6df5a1f0e7240bd7ccef2ec6a0ee, type: 3}
+  MG_name: Miki Sayaka
+  age: 14
   skills: 
   problems: 
   card: {fileID: 21300000, guid: 65f35fd17cfe9df41a3c658863bf9682, type: 3}
-  likes: 
-  dislikes: 
-  luxuryLevel: 0
-  foodConsumption: 0
-  socialType: 0
-  baseATK: 0
-  baseDEF: 0
-  modATK: 0
-  modDEF: 0
-  MAXTIREDNESS: 0
-  depression: 0
-  breakingPoint: 0
+  likes: 020000000000000005000000
+  dislikes: 07000000
+  luxuryLevel: 1
+  foodConsumption: 4
+  socialType: 1
+  baseATK: 1100
+  baseDEF: 1600
+  modATK: 1
+  modDEF: 2
+  MAXTIREDNESS: 90
+  depression: 0.2
+  breakingPoint: 3

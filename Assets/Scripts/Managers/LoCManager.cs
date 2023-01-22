@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LoCManager : MonoBehaviour
@@ -37,6 +38,8 @@ public class LoCManager : MonoBehaviour
 
     private void Start()
     {
+        magicalGirls = new List<MagicalGirl>();
+        buildings = new List<Building>();
         UpdateGui();
     }
 
@@ -46,7 +49,8 @@ public class LoCManager : MonoBehaviour
         avgHappiness = 0;
         foreach(MagicalGirl mg in magicalGirls)
         {
-           CalculateMagicalGirlDay(mg);
+           if(mg.isAlive)
+                CalculateMagicalGirlDay(mg);
         }
 
         foreach(Building bd in buildings)
@@ -62,7 +66,12 @@ public class LoCManager : MonoBehaviour
         hope += genHope;
 
         // Karmic Power
-        avgHappiness = avgHappiness / magicalGirls.Count();
+        if(magicalGirls.Count > 0)
+        {
+            avgHappiness = avgHappiness / magicalGirls.Count();
+        }
+
+
         if(avgHappiness >= 40)
         {
             int aux = avgHappiness;
@@ -74,7 +83,7 @@ public class LoCManager : MonoBehaviour
         }
 
         //TODO: Possible special events?
-
+        UpdateGui();
     }
 
     private void CalculateMagicalGirlDay(MagicalGirl mg)
@@ -146,24 +155,43 @@ public class LoCManager : MonoBehaviour
     public void OnCreatedBuilding(Building building)
     {
         hope -= building.preset.cost;
+        maintenanceTotal += building.preset.maintenance;
+        buildings.Add(building);
         UpdateGui();
     }
 
     public void OnDestroyedBuilding(Building building)
     {
         hope += building.preset.cost / 5;
+        maintenanceTotal -= building.preset.maintenance;
+        buildings.Remove(building);
         UpdateGui();
     }
 
     public void OnAddedMagicalGirl(MagicalGirl mg)
     {
+        karmicPower -= 5;
         magicalGirls.Add(mg);
+        RecalculateHappiness();
         UpdateGui();
     }
 
     public void OnMagicalGirlDied(MagicalGirl mg)
     {
-
+        mg.isAlive = false;
         UpdateGui();
+    }
+
+    private void RecalculateHappiness()
+    {
+        foreach(MagicalGirl mg in magicalGirls)
+        {
+            if(mg.isAlive)
+            {
+                avgHappiness += mg.happiness;
+            }
+        }
+
+        avgHappiness = avgHappiness / magicalGirls.Count();
     }
 }

@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
-  m_Name: NewMG 2
+  m_Name: TomoeMami
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  MG_name: 
-  age: 0
+  prefab: {fileID: 3168303571480808635, guid: 93fe64b9d832c234abb5f7e2a1f9797c, type: 3}
+  MG_name: Tomoe Mami
+  age: 15
   skills: 
   problems: 
   card: {fileID: 21300000, guid: 29dfee1c6603e03469f1b60f13591172, type: 3}
-  likes: 
-  dislikes: 
-  luxuryLevel: 0
-  foodConsumption: 0
-  socialType: 0
-  baseATK: 0
-  baseDEF: 0
-  modATK: 0
-  modDEF: 0
-  MAXTIREDNESS: 0
-  depression: 0
-  breakingPoint: 0
+  likes: 000000000200000004000000
+  dislikes: 00000000
+  luxuryLevel: 2
+  foodConsumption: 4
+  socialType: 1
+  baseATK: 1700
+  baseDEF: 1000
+  modATK: 1
+  modDEF: 1
+  MAXTIREDNESS: 100
+  depression: 0.3
+  breakingPoint: 2
