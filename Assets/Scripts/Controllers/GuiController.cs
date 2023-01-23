@@ -118,6 +118,8 @@ public class GuiController : MonoBehaviour
 
     public void SeeHomeDetails(Building building)
     {
+        assignablePanel.SetActive(false);
+        buildingInfoPanel.SetActive(false);
         houseInfoPanel.SetActive(true);
         houseName.text = building.preset.name;
         houseSizeType.text = "Size: " + building.preset.size.ToString();
@@ -144,6 +146,8 @@ public class GuiController : MonoBehaviour
 
     public void SeeBuildingDetails(Building building)
     {
+        assignablePanel.SetActive(false);
+        houseInfoPanel.SetActive(false);
         buildingInfoPanel.SetActive(true);
         buildingName.text = building.preset.name;
         buildingSizeType.text = "Size: " + building.preset.size.ToString();

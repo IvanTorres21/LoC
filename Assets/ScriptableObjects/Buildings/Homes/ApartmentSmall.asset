@@ -16,7 +16,7 @@ MonoBehaviour:
   cost: 1000
   maintenance: 45
   hope: 0
-  maxPeople: 10
+  maxPeople: 6
   size: 1
   type: 0
   luxuryValue: 1

@@ -11,7 +11,7 @@ public class LoCManager : MonoBehaviour
 
     private int maintenanceTotal;
 
-    public int hope { get; private set; } = 1000;
+    public int hope { get; private set; } = 6000;
     public int karmicPower { get; private set; } = 20;
     private int avgHappiness;
     private int genHope;

@@ -46,7 +46,7 @@ public class BuildingSelector : MonoBehaviour
             {
                 building.transform.Rotate(new Vector3(0f, -90f, 0f));
             }
-            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+            if (canPlace && Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
             {
                 if(!TileSelector.instance.CheckIsOccupied())
                 {
