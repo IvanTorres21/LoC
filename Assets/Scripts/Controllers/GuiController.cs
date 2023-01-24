@@ -97,12 +97,13 @@ public class GuiController : MonoBehaviour
             return;
         }
 
-        for(int i = 0; i < scrollViewContent.transform.childCount; i++)
+        foreach (Transform tan in scrollViewContent.transform)
         {
-            Destroy(scrollViewContent.transform.GetChild(0));
+            Destroy(tan.gameObject);
         }
 
-        foreach(MagicalGirl girl in LoCManager.instance.magicalGirls)
+
+        foreach (MagicalGirl girl in LoCManager.instance.magicalGirls)
         {
             GameObject card = Instantiate(prefabCardMg, scrollViewContent.transform);
             card.GetComponent<Image>().sprite = girl.preset.card;

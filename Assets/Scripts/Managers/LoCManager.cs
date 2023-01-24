@@ -184,6 +184,7 @@ public class LoCManager : MonoBehaviour
 
     private void RecalculateHappiness()
     {
+        avgHappiness = 0;
         foreach(MagicalGirl mg in magicalGirls)
         {
             if(mg.isAlive)
