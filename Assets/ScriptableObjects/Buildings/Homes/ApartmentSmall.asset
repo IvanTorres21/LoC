@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
   m_Name: ApartmentSmall
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 946238978026305810, guid: 17c605c8185ff74448514e127baff9fc, type: 3}
   cost: 1000
   maintenance: 45
   hope: 0
