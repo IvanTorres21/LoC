@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
+  m_Name: TamakiIroha
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1649547442342199919, guid: f3161a1850e5d14469502fa6b21635f2, type: 3}
+  MG_name: Tamaki Iroha
+  age: 15
+  skills: 
+  problems: 
+  card: {fileID: 21300000, guid: 1c537b9b51804d6438fc2f2fe58c5bc1, type: 3}
+  likes: 00000000040000000200000005000000
+  dislikes: 07000000
+  luxuryLevel: 1
+  foodConsumption: 4
+  socialType: 1
+  baseATK: 1100
+  baseDEF: 1200
+  modATK: 2
+  modDEF: 1
+  MAXTIREDNESS: 85
+  depression: 0
+  breakingPoint: 8

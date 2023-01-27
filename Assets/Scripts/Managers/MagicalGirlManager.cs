@@ -25,6 +25,7 @@ public class MagicalGirlManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI txtDislikes;
     [SerializeField] private TextMeshProUGUI txtAtk;
     [SerializeField] private TextMeshProUGUI txtDef;
+    [SerializeField] private TextMeshProUGUI txtLuxury;
 
     public void GachaStart()
     {
@@ -76,6 +77,7 @@ public class MagicalGirlManager : MonoBehaviour
         girl.txtLikes = txtLikes;
         girl.txtDislikes = txtDislikes;
         girl.cardImg = cardImg;
+        girl.txtLuxury = txtLuxury;
         
         LoCManager.instance.OnAddedMagicalGirl(girl);
 

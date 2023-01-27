@@ -23,10 +23,10 @@ MonoBehaviour:
   luxuryLevel: 0
   foodConsumption: 2
   socialType: 0
-  baseATK: 1900
+  baseATK: 2300
   baseDEF: 700
   modATK: 2
   modDEF: 1
   MAXTIREDNESS: 120
-  depression: 0.5
-  breakingPoint: 8
+  depression: 0.6
+  breakingPoint: 20

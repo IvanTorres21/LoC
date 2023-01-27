@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
+  m_Name: ArenaPreset
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5742634685766673696, guid: b5b736cb8bf46fb478aa969b179d3b41, type: 3}
+  building_name: Arena
+  cost: 2500
+  maintenance: 50
+  hope: 10
+  maxPeople: 4
+  size: 2
+  type: 3
+  luxuryValue: 1
+  activityType: 1
+  passiveBuilding: 0
+  relaxIndex: 4
+  happyIndex: 6
+  xpIndex: 25
+  foodAmount: 0
+  trainingAmount: 25
+  hobbyType: 01000000

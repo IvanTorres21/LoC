@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
+  m_Name: School
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5886258414010582228, guid: fca05af686a46ab47adba92e44b7cec6, type: 3}
+  building_name: School
+  cost: 3000
+  maintenance: 40
+  hope: 0
+  maxPeople: 16
+  size: 2
+  type: 3
+  luxuryValue: 2
+  activityType: 1
+  passiveBuilding: 0
+  relaxIndex: 2
+  happyIndex: 4
+  xpIndex: 15
+  foodAmount: 0
+  trainingAmount: 15
+  hobbyType: 0500000000000000

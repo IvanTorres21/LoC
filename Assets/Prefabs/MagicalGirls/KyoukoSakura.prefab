@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4583578278960384985}
   - component: {fileID: 7458764671201854007}
+  - component: {fileID: -7993503259926529210}
   m_Layer: 0
   m_Name: KyoukoSakura
   m_TagString: Untagged
@@ -44,6 +45,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0718459024c20b43ba48a0cfa9a750c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showSettings: 0
+  isOn: 1
+  groupID: 0
+  autoSync: 1
+  _zuid: 
+  _gozuid: 
   preset: {fileID: 11400000, guid: 4efb0e22f2f50b54fa2914ee07464bc1, type: 2}
   isAlive: 1
   cardImg: {fileID: 0}
@@ -56,3 +63,42 @@ MonoBehaviour:
   txtDislikes: {fileID: 0}
   txtAtk: {fileID: 0}
   txtDef: {fileID: 0}
+  txtLuxury: {fileID: 0}
+--- !u!114 &-7993503259926529210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962329621965457443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4583578278960384985}
+    zuid: 

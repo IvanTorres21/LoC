@@ -122,7 +122,7 @@ public class GuiController : MonoBehaviour
         assignablePanel.SetActive(false);
         buildingInfoPanel.SetActive(false);
         houseInfoPanel.SetActive(true);
-        houseName.text = building.preset.name;
+        houseName.text = building.preset.building_name;
         houseSizeType.text = "Size: " + building.preset.size.ToString();
         houseLuxuryType.text = "Luxury: " + building.preset.luxuryValue.ToString();
         houseRelaxLevel.text = "Relax: " + building.preset.relaxIndex.ToString();
@@ -138,7 +138,7 @@ public class GuiController : MonoBehaviour
         foreach (MagicalGirl mg in building.currentTenants)
         {
             GameObject mgTenant = Instantiate(prefabTenant, tenantsScrollContent.transform);
-            mgTenant.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.name;
+            mgTenant.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.MG_name;
             mgTenant.transform.GetChild(1).gameObject.GetComponent<Button>().onClick.AddListener(() => building.DeassignMagicalGirl(mg));
             mgTenant.transform.GetChild(1).gameObject.GetComponent<Button>().onClick.AddListener(() => SeeHomeDetails(building));
         }
@@ -150,7 +150,7 @@ public class GuiController : MonoBehaviour
         assignablePanel.SetActive(false);
         houseInfoPanel.SetActive(false);
         buildingInfoPanel.SetActive(true);
-        buildingName.text = building.preset.name;
+        buildingName.text = building.preset.building_name;
         buildingSizeType.text = "Size: " + building.preset.size.ToString();
         buildingLuxuryType.text = "Luxury: " + building.preset.luxuryValue.ToString();
         if(building.preset.type == BuildingType.HOBBY && building.preset.type == BuildingType.FOOD)
@@ -171,7 +171,7 @@ public class GuiController : MonoBehaviour
         foreach (MagicalGirl mg in building.currentTenants)
         {
             GameObject mgTenant = Instantiate(prefabBuildingTenant, buildingScrollContent.transform);
-            mgTenant.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.name;
+            mgTenant.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.MG_name;
             mgTenant.transform.GetChild(1).gameObject.GetComponent<Button>().onClick.AddListener(() => building.DeassignMagicalGirl(mg));
             mgTenant.transform.GetChild(1).gameObject.GetComponent<Button>().onClick.AddListener(() => SeeBuildingDetails(building));
         }
@@ -188,7 +188,7 @@ public class GuiController : MonoBehaviour
         foreach (MagicalGirl mg in LoCManager.instance.magicalGirls)
         {
             GameObject assignMg = Instantiate(assignableGirlPrefab, assignableScroller.transform);
-            assignMg.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.name;
+            assignMg.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.MG_name;
             assignMg.GetComponent<Button>().onClick.AddListener(() => building.AssignMagicalGirl(mg));
             if(building.preset.type == BuildingType.HOUSE)
                 assignMg.GetComponent<Button>().onClick.AddListener(() => SeeHomeDetails(building));

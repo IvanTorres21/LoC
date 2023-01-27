@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
+  m_Name: MikuniOriko
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7933624984973850318, guid: e14dfe023a472f94e8cd37ac07ef694f, type: 3}
+  MG_name: Mikuni Oriko
+  age: 15
+  skills: 
+  problems: 
+  card: {fileID: 21300000, guid: fd4e7ba248800624c8e4d4ddef965c37, type: 3}
+  likes: 0000000006000000
+  dislikes: 0500000003000000
+  luxuryLevel: 3
+  foodConsumption: 4
+  socialType: 2
+  baseATK: 1000
+  baseDEF: 1600
+  modATK: 1
+  modDEF: 2
+  MAXTIREDNESS: 90
+  depression: 0.1
+  breakingPoint: 5

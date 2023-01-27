@@ -40,17 +40,17 @@ public class BuildingSelector : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
-                building.transform.Rotate(new Vector3(0f, 90f, 0f));
+                building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + 90f, 0f);
             }
             else if (Input.GetKeyDown(KeyCode.E))
             {
-                building.transform.Rotate(new Vector3(0f, -90f, 0f));
+                building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - 90f, 0f);
             }
             if (canPlace && Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
             {
-                if(!TileSelector.instance.CheckIsOccupied())
+                if(!TileSelector.instance.CheckIsOccupied() || currentPreset.type == BuildingType.DECORATION)
                 {
-                    GameObject bd = Instantiate(currentPreset.prefab, currentPos, building.transform.rotation);
+                    GameObject bd = Instantiate(currentPreset.prefab, currentPos, Quaternion.Euler(0f, building.transform.rotation.eulerAngles.y, 0f));
                     LoCManager.instance.OnCreatedBuilding(bd.GetComponent<Building>());
                 }
                 
@@ -127,12 +127,22 @@ public class BuildingSelector : MonoBehaviour
     {
         while(isPlacing)
         {
-            currentPos = TileSelector.instance.GetCurrentTile();
+            if(currentPreset.type == BuildingType.DECORATION)
+               currentPos = TileSelector.instance.GetFreeForm();
+            else
+                currentPos = TileSelector.instance.GetCurrentTile();
+
+
             indicator.transform.position = currentPos;
 
             if(LoCManager.instance.hope >= currentPreset.cost)
             {
-                if (TileSelector.instance.CheckIsOccupied())
+                if(currentPreset.type == BuildingType.DECORATION)
+                {
+                    building.GetComponentInChildren<MeshRenderer>().material = placeableMaterial;
+                    canPlace = true;
+                }
+                else if (TileSelector.instance.CheckIsOccupied())
                 {
                     building.GetComponentInChildren<MeshRenderer>().material = unplaceableMaterial;
                     canPlace = false;

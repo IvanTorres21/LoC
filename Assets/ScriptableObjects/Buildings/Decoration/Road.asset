@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Road
   m_EditorClassIdentifier: 
   prefab: {fileID: 2579502506318052217, guid: 8f65b035eca04c94da4383a4ff5d5d3d, type: 3}
-  cost: 10
+  building_name: Road
+  cost: 50
   maintenance: 0
   hope: 0
   maxPeople: 0
   size: 0
-  type: 6
+  type: 7
   luxuryValue: 0
   activityType: 0
   passiveBuilding: 1

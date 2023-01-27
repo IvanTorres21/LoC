@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
+  m_Name: RestaurantPreset
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1444670201692080029, guid: 71b135a97aeec364eaf445484a24445f, type: 3}
+  building_name: Restaurant
+  cost: 2800
+  maintenance: 150
+  hope: 4
+  maxPeople: 8
+  size: 1
+  type: 1
+  luxuryValue: 1
+  activityType: 1
+  passiveBuilding: 0
+  relaxIndex: 7
+  happyIndex: 7
+  xpIndex: 0
+  foodAmount: 0
+  trainingAmount: 0
+  hobbyType: 00000000

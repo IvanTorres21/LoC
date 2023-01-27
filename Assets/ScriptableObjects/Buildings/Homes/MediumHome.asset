@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: MediumHome
   m_EditorClassIdentifier: 
   prefab: {fileID: 0}
+  building_name: Medium Home
   cost: 650
   maintenance: 35
   hope: 0

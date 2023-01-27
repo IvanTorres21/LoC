@@ -1,0 +1,2278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6315883660938555112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6315883660938555115}
+  - component: {fileID: 6315883660938555117}
+  - component: {fileID: 6315883660938555114}
+  - component: {fileID: -6388082533112760870}
+  m_Layer: 0
+  m_Name: Cafe
+  m_TagString: Building
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6315883660938555115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6315883660938555112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.807, y: 0, z: -1.649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5777062547745991464}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6315883660938555117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6315883660938555112}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0422957, y: 0.1, z: 1.0635417}
+  m_Center: {x: -0.04230249, y: 0, z: -0.039997697}
+--- !u!114 &6315883660938555114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6315883660938555112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa53a392a7d21494fbba63d19ad48d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showSettings: 0
+  isOn: 1
+  groupID: 0
+  autoSync: 1
+  _zuid: 
+  _gozuid: 
+  preset: {fileID: 11400000, guid: 54ebe05dd3fda3e4fbd5e3f5e2853256, type: 2}
+  currentTenants: []
+--- !u!114 &-6388082533112760870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6315883660938555112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6315883660938555115}
+    zuid: 
+  - typeFullName: UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6315883660938555117}
+    zuid: 
+--- !u!1001 &7823639719315534545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6315883660938555115}
+    m_Modifications:
+    - target: {fileID: 4032069342968202051, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_Name
+      value: cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+--- !u!23 &154771441974629715 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7977842043218405250, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &179545586540234995 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 7993600295517567522, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &201972898292596505 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7952982663328697800, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &209198028826013344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7959020114610920561, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1731887860581683861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209198028826013344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3550454754855423511}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8802380870659537824}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 671825371949487494}
+    zuid: 
+--- !u!4 &304850334552759937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7541327174530067536, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &337477059295430801 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7511392057556318784, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &338067242003638775 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7503604468460739366, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &430066616301866375 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7594407698123013974, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &545374699714811577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7710912127494317160, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &550334851555693516 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 7723682698837811485, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &603462166217563558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7263404028262444919, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8172956166360155425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603462166217563558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7791527548236175669}
+    zuid: 
+--- !u!4 &629918457505241854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7218933341838354479, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &671825371949487494 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7332400338484635479, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &679585951572529445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7349163264043115508, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &712001999892399725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7310095173764265148, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6825357529648507414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712001999892399725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 679585951572529445}
+    zuid: 
+--- !u!23 &910180018158127406 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6931810828576963583, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &970388982764894393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7053944872186088040, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1091723409609888751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7184845007775785278, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &1233103470288703072 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 9047727035332197553, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1270083946892009044 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 9021581147231808645, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &1296689258846364720 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 9038129467392415457, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1482673311761263275 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8647093090802931834, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5214368680213495245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482673311761263275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 304850334552759937}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8575366821647917253}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4495647801586903342}
+    zuid: 
+--- !u!4 &1557784351816923938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8722762480910453235, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1568429844559959657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8743466537419957432, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7083305216691281621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568429844559959657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1703639964737302260}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7758444548042595238}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1925530533492597690}
+    zuid: 
+--- !u!33 &1660309960717183887 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 8906358384423819614, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1703639964737302260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8878755792898169893, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1705108019272538588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8879660760038943501, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3692413299738183260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705108019272538588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 970388982764894393}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3635074679623763726}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3815262138805707977}
+    zuid: 
+--- !u!4 &1834025462376664314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8494038140372909611, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1874281885341105020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8543873500056963501, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7787968938370594585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874281885341105020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 2808481534874457251}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7928241729712253549}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6817355206262425295}
+    zuid: 
+--- !u!33 &1911546333639132037 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 8508438363541516628, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1925530533492597690 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8515177761014206827, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &2134926975318132435 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 8157125146630222850, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2328860271010151878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5531230461044723479, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8416461247487276817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2328860271010151878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3376820046823948154}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5572381090369392228}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7475917848403687088}
+    zuid: 
+--- !u!23 &2392447036464261902 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5593623813990586847, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2405253308503644584 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5616564863993195385, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2551883435483548966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5762701696799293431, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1689054313873543176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551883435483548966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1834025462376664314}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 9106505505173529363}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 2392447036464261902}
+    zuid: 
+--- !u!1 &2552520849369228605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764404044061612012, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &218933858744996141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2552520849369228605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6736086983928031722}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4389470323607821597}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4421682155287446038}
+    zuid: 
+--- !u!1 &2742510552074510385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5376308456915014368, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7361046728495020887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2742510552074510385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3878770982825622290}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5863648907920884440}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8720520973963039601}
+    zuid: 
+--- !u!4 &2808481534874457251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5362271809664181874, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2881856864267506859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5435087544018527866, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6546055670970122135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881856864267506859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 9211623707329042361}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1911546333639132037}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4826599374807736066}
+    zuid: 
+--- !u!4 &2966726743629194082 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5023985968816525747, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3376820046823948154 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4778311708062748075, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3401574692198965374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4875134461551448751, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5216561620968997511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3401574692198965374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6876706199324035166}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4555399333682073787}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 9124878652215561237}
+    zuid: 
+--- !u!1 &3418501759024680147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4891986594091154946, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5919556959588569690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418501759024680147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8002056594298361198}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8855923877241173827}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4332146609852755666}
+    zuid: 
+--- !u!4 &3446809112222920545 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4847738519299300784, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &3493860887326633213 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 6696721978697211436, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3550454754855423511 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6761760211489356998, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &3635074679623763726 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 6836824835282023903, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3716488617700433384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6845674205143461689, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3738915617738666493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6877116676539237164, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3815262138805707977 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6368563130933614104, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3878770982825622290 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6433127596834785731, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3928685431283528409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6491472988785360904, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2018857247863549579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3928685431283528409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 9014952756911604348}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1233103470288703072}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4154646131703180827}
+    zuid: 
+--- !u!4 &4032283107464377097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6586139250415665624, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &4048967793909556089 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 6098986730185658792, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4154646131703180827 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6141610799148178634, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4174755881812270462 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6159957289615028143, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4211026841801321406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6261046117925099887, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3034975065719722759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4211026841801321406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 629918457505241854}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4048967793909556089}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 201972898292596505}
+    zuid: 
+--- !u!1 &4221560378022816761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6198879515815024936, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4001290369374998779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4221560378022816761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1091723409609888751}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8401677392393769521}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4174755881812270462}
+    zuid: 
+--- !u!33 &4252677280346907380 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 6311704357012492325, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4332146609852755666 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5804514005563202563, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &4389470323607821597 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 5798858268800659404, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4421682155287446038 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5895175223273582791, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4495647801586903342 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5976444951614594047, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &4555399333682073787 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 6028949159658889834, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4826599374807736066 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3344098991078501843, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5321117399456006874 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2687328234341249035, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5394849915653893295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2760000366604508798, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &530573323877555446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5394849915653893295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 337477059295430801}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7657926911407048580}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1270083946892009044}
+    zuid: 
+--- !u!4 &5395141624460123024 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2759653680053414209, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5423827615483745580 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2870596871845095421, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5529638803787419695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2318825966472225534, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9109379155055346257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529638803787419695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3716488617700433384}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5851296126592924421}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8884147584346090563}
+    zuid: 
+--- !u!1 &5536324944839703974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2326070638499696503, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8784969769933777261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5536324944839703974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6633695424015977808}
+    zuid: 
+--- !u!33 &5572381090369392228 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 2433691800622480565, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5777062547745991464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4377244957923908089, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5806708108222194081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4325343081903068016, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6237981795144949742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806708108222194081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3446809112222920545}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4252677280346907380}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 430066616301866375}
+    zuid: 
+--- !u!33 &5851296126592924421 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 4440791180128602580, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &5863648907920884440 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 4453210396547559433, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &5880699958066635507 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 4399831756392828962, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6114234333893440451 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4055836045265551634, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6316512466062416506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4268256037784152235, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8216008749489242709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316512466062416506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 2966726743629194082}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 550334851555693516}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5321117399456006874}
+    zuid: 
+--- !u!1 &6586496226939416978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4032069342968202051, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1339634067958415296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586496226939416978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5777062547745991464}
+    zuid: 
+--- !u!1 &6592613638349345570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4030314792823890419, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7415550518419425113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6592613638349345570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 2405253308503644584}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 179545586540234995}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6924087929564243439}
+    zuid: 
+--- !u!4 &6633695424015977808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3502876958728601473, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6641372620881378983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3511052792168172662, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &761883656143856143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6641372620881378983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7232105168662294605}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 2134926975318132435}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7540931428148632076}
+    zuid: 
+--- !u!4 &6736086983928031722 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3596200940733586235, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6750633237423907410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3547772136932806787, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4629027414393947605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750633237423907410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5395141624460123024}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6857627459300514486}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7596989346606527555}
+    zuid: 
+--- !u!23 &6817355206262425295 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3607166350388032542, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &6857627459300514486 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 3726738625268951143, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6876706199324035166 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3746380284633807503, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6924087929564243439 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 901964120781182782, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7232105168662294605 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 634655201026998940, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7319200765044481867 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 648554143690927514, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7475917848403687088 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 805279512046257249, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7540931428148632076 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 303399177265653981, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7596989346606527555 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 432006162869175954, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7620334214266688087 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 383926681648193670, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &7657926911407048580 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 492384586817484117, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7751470335281518056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 504939638287148857, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2624366361154995610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751470335281518056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6114234333893440451}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1660309960717183887}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7319200765044481867}
+    zuid: 
+--- !u!33 &7758444548042595238 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 520358078346258807, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7760826636940385185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 513648310423710064, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1796893981976885614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760826636940385185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4032283107464377097}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5880699958066635507}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 338067242003638775}
+    zuid: 
+--- !u!4 &7791527548236175669 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 50163953320979428, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &7826819071571996090 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 3752245065506667, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &7928241729712253549 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 186304580565145788, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8002056594298361198 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 260684092159928255, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8093355385254986623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2072351854807626158, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8192752477536173694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2099141588642876591, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8976304592512228851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8192752477536173694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 545374699714811577}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3493860887326633213}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 910180018158127406}
+    zuid: 
+--- !u!1 &8325243999307374554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2241125280198126859, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1546934893840327273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8325243999307374554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1557784351816923938}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 9052211055952636399}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5423827615483745580}
+    zuid: 
+--- !u!33 &8401677392393769521 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 1732733347622281440, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8568272314013851966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1908321840026899439, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6203867328141798700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8568272314013851966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8093355385254986623}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7826819071571996090}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7620334214266688087}
+    zuid: 
+--- !u!33 &8575366821647917253 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 1986919144117686804, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8720520973963039601 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1555612419040567712, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &8802380870659537824 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 1638026156603771249, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &8855923877241173827 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 1618385492610139538, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8884147584346090563 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1718672979051126418, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9014952756911604348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1263450028946845869, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &9052211055952636399 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 1228584539905579838, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9056664217613920450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1242037749703121427, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7877188200785681823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9056664217613920450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 3738915617738666493}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1296689258846364720}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 154771441974629715}
+    zuid: 
+--- !u!33 &9106505505173529363 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 1365690600928678338, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &9124878652215561237 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1310884037881691844, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9211623707329042361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1388626197295555944, guid: 04e62f722aab00b4ba59adc414dc9de5, type: 3}
+  m_PrefabInstance: {fileID: 7823639719315534545}
+  m_PrefabAsset: {fileID: 0}

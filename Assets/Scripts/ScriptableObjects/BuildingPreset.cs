@@ -8,6 +8,7 @@ public class BuildingPreset : ScriptableObject
     public GameObject prefab;
 
     [Header("General Data")]
+    public string building_name;
     public int cost;
     public int maintenance;
     public int hope;

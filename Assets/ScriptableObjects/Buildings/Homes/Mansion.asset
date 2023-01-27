@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Mansion
   m_EditorClassIdentifier: 
   prefab: {fileID: 0}
+  building_name: Mansion
   cost: 8500
   maintenance: 300
   hope: 0

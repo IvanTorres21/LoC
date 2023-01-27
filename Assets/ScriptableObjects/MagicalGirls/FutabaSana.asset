@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
+  m_Name: FutabaSana
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6067100337466153067, guid: 4bdebfbd789259140a766bc6c3e5bccd, type: 3}
+  MG_name: Sana Futaba
+  age: 14
+  skills: 
+  problems: 
+  card: {fileID: 21300000, guid: 52dd1a372216ce549bee8ec5da0ab8cb, type: 3}
+  likes: 0000000006000000
+  dislikes: 0300000007000000
+  luxuryLevel: 1
+  foodConsumption: 2
+  socialType: 0
+  baseATK: 900
+  baseDEF: 1900
+  modATK: 1
+  modDEF: 3
+  MAXTIREDNESS: 90
+  depression: 0.2
+  breakingPoint: 4

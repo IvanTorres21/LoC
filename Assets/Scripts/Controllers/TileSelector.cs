@@ -48,6 +48,27 @@ public class TileSelector : MonoBehaviour
         return tile;
     }
 
+    public Vector3 GetFreeForm()
+    {
+        Vector3 tile = new Vector3(0, -100, 0);
+
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return tile;
+        }
+
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        RaycastHit rayOut;
+
+        if (Physics.Raycast(ray, out rayOut))
+        {
+            tile = rayOut.point;
+          
+        }
+
+        return tile;
+    }
+
     public bool CheckIsOccupied()
     {
         bool isOccupied = false;

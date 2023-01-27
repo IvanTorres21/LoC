@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
+  m_Name: Tree
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1275066038178149713, guid: 28de408f49a973f4e9aa251303d12a8c, type: 3}
+  building_name: Tree
+  cost: 40
+  maintenance: 0
+  hope: 0
+  maxPeople: 0
+  size: 0
+  type: 6
+  luxuryValue: 0
+  activityType: 0
+  passiveBuilding: 1
+  relaxIndex: 0
+  happyIndex: 0
+  xpIndex: 0
+  foodAmount: 0
+  trainingAmount: 0
+  hobbyType: 

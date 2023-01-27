@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ApartmentMedium
   m_EditorClassIdentifier: 
   prefab: {fileID: 185551438293810925, guid: 619766058b04ac848b8c510fc0dbebaf, type: 3}
+  building_name: Apartment Block
   cost: 2500
   maintenance: 80
   hope: 0

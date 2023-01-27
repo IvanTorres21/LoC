@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using ZSerializer;
 
-public class MagicalGirl : MonoBehaviour
+public class MagicalGirl : PersistentMonoBehaviour
 {
     public MGPreset preset;
 
     public bool isAlive = true;
 
-    public int happiness { get; private set; } = 80;
+    public int happiness = 80;
     private int level = 1;
     private int xp = 0;
-    public int tiredness { get; private set; }
+    public int tiredness;
 
-    public Building currentLocation { get; private set; }
-    public Building home { get; private set; }
+    public Building currentLocation;
+    public Building home;
 
     [Header("Magical Girl Panel UI")]
     public Image cardImg;
@@ -29,14 +30,17 @@ public class MagicalGirl : MonoBehaviour
     public TextMeshProUGUI txtDislikes;
     public TextMeshProUGUI txtAtk;
     public TextMeshProUGUI txtDef;
+    public TextMeshProUGUI txtLuxury;
 
     public void ChangeLocation(Building newLocation)
     {
+       
         currentLocation = newLocation;
     }
 
     public void ChangeHome(Building newHome)
     {
+       
         home = newHome;
     }
 
@@ -236,8 +240,8 @@ public class MagicalGirl : MonoBehaviour
     public void FillGUIData()
     {
         cardImg.sprite = preset.card;
-        txtName.text = preset.name;
-        txtLevel.text = level.ToString();
+        txtName.text = preset.MG_name;
+        txtLevel.text = "Level: " + level.ToString();
         txtXp.text = UntilNextLevel();
         txtAtk.text = CalculateAtkModifier().ToString();
         txtDef.text = CalculateDefModifier().ToString();
@@ -245,6 +249,7 @@ public class MagicalGirl : MonoBehaviour
         txtTiredness.text = "Tiredness: " + tiredness + "%";
         txtLikes.text = "";
         txtDislikes.text = "";
+        txtLuxury.text = "Luxury: " + preset.luxuryLevel.ToString();
         foreach(BuildingType type in preset.likes)
         {
             txtLikes.text += type.ToString() + "\n";

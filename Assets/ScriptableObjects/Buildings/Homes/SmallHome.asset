@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SmallHome
   m_EditorClassIdentifier: 
   prefab: {fileID: 7040916721092420542, guid: f19a935ccc9157e4dbfa87771a78de81, type: 3}
+  building_name: Small Home
   cost: 150
   maintenance: 20
   hope: 0

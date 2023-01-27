@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ZSerializer;
 
-public class Building : MonoBehaviour
+public class Building : PersistentMonoBehaviour
 {
     public BuildingPreset preset;
 
@@ -10,11 +11,17 @@ public class Building : MonoBehaviour
 
     public void AssignMagicalGirl(MagicalGirl mg)
     {
+
         if (currentTenants.Contains(mg))
             return;
 
+
+
         if(preset.maxPeople > currentTenants.Count)
         {
+            if (mg.currentLocation != null)
+                mg.currentLocation.DeassignMagicalGirl(mg);
+
             currentTenants.Add(mg);
             if(preset.type == BuildingType.HOUSE)
                 mg.ChangeHome(this);

@@ -4,21 +4,22 @@ using System.Linq;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using ZSerializer;
 
-public class LoCManager : MonoBehaviour
+public class LoCManager : PersistentMonoBehaviour
 {
     public static LoCManager instance;
 
     private int maintenanceTotal;
 
-    public int hope { get; private set; } = 999000;
-    public int karmicPower { get; private set; } = 20;
+    public int hope = 3000;
+    public int karmicPower = 30;
     private int avgHappiness;
     private int genHope;
 
     private Building mainHall;
 
-    public List<MagicalGirl> magicalGirls { get; private set; }
+    public List<MagicalGirl> magicalGirls;
     private List<Building> buildings;
 
     [SerializeField] private TextMeshProUGUI txtHope;
@@ -27,17 +28,20 @@ public class LoCManager : MonoBehaviour
 
     private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
-        } else
+        }
+        else
         {
             Destroy(this);
         }
     }
 
+
     private void Start()
     {
+        
         magicalGirls = new List<MagicalGirl>();
         buildings = new List<Building>();
         UpdateGui();
@@ -170,7 +174,7 @@ public class LoCManager : MonoBehaviour
 
     public void OnAddedMagicalGirl(MagicalGirl mg)
     {
-        karmicPower -= 5;
+        karmicPower -= 30;
         magicalGirls.Add(mg);
         RecalculateHappiness();
         UpdateGui();
@@ -194,5 +198,12 @@ public class LoCManager : MonoBehaviour
         }
 
         avgHappiness = avgHappiness / magicalGirls.Count();
+    }
+
+    public override void OnPostLoad()
+    {
+        base.OnPostLoad();
+        instance = this;
+        UpdateGui();
     }
 }
