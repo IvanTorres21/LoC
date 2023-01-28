@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 5511874650121294651}
   - component: {fileID: 1154337394192800255}
   - component: {fileID: -144310085331908561}
+  - component: {fileID: 1617571985845720332}
   m_Layer: 0
   m_Name: Bench
-  m_TagString: Untagged
+  m_TagString: Decoration
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,6 +93,24 @@ MonoBehaviour:
     persistenceType: 0
     component: {fileID: 5511874650121294651}
     zuid: 
+  - typeFullName: UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 1617571985845720332}
+    zuid: 
+--- !u!65 &1617571985845720332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103580119431421244}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1936302986237730665
 PrefabInstance:
   m_ObjectHideFlags: 0

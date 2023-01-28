@@ -100,4 +100,20 @@ public class TileSelector : MonoBehaviour
         }
         return null;
     }
+
+    public GameObject GetClickedBuildingDemolishing()
+    {
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            if (hit.collider.CompareTag("Building") || hit.collider.CompareTag("Decoration"))
+            {
+                return hit.collider.gameObject;
+            }
+
+        }
+        return null;
+    }
 }

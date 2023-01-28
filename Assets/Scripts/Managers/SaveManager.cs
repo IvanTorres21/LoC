@@ -6,7 +6,27 @@ using ZSerializer;
 
 public class SaveManager : MonoBehaviour
 {
-   public async void SaveCurrentAsync ()
+    [SerializeField] private GameObject loadScreen;
+
+    private void Start()
+    {
+        Debug.Log("Load level: " + !MainMenuController.instance.newGame);
+        if (!MainMenuController.instance.newGame)
+        {
+            StartCoroutine(LoadLevelOnStart());
+        }
+    }
+
+   
+    private IEnumerator LoadLevelOnStart()
+    {
+        loadScreen.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        loadScreen.SetActive(false);
+        LoadCurrentAsync();
+    }
+
+    public async void SaveCurrentAsync ()
     {
         await ZSerialize.SaveScene();
     }

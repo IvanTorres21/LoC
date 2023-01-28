@@ -53,6 +53,10 @@ MonoBehaviour:
   _gozuid: 
   preset: {fileID: 11400000, guid: 63085880e43d5e94885a32274ed4d1d8, type: 2}
   isAlive: 1
+  happiness: 80
+  tiredness: 0
+  currentLocation: {fileID: 0}
+  home: {fileID: 0}
   cardImg: {fileID: 0}
   txtName: {fileID: 0}
   txtXp: {fileID: 0}

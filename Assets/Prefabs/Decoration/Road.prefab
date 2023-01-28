@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2579502506318052216}
   - component: {fileID: 8803982753620247567}
   - component: {fileID: 10763991953357911}
+  - component: {fileID: 7410191438351802334}
   m_Layer: 0
   m_Name: Road
   m_TagString: Building
@@ -92,6 +93,24 @@ MonoBehaviour:
     persistenceType: 0
     component: {fileID: 2579502506318052216}
     zuid: 
+  - typeFullName: UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7410191438351802334}
+    zuid: 
+--- !u!65 &7410191438351802334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2579502506318052217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2579502506746603030
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,6 +44,7 @@ public class LoCManager : PersistentMonoBehaviour
         
         magicalGirls = new List<MagicalGirl>();
         buildings = new List<Building>();
+        LoadReferencesToGui();
         UpdateGui();
     }
 
@@ -204,6 +205,16 @@ public class LoCManager : PersistentMonoBehaviour
     {
         base.OnPostLoad();
         instance = this;
+        
+        LoadReferencesToGui();
+        RecalculateHappiness();
         UpdateGui();
+    }
+
+    private void LoadReferencesToGui()
+    {
+        txtHappy = ReferenceHolder.instance.txtHappyLoC;
+        txtHope = ReferenceHolder.instance.txtHopeLoC;
+        txtKP = ReferenceHolder.instance.txtKPLoC;
     }
 }

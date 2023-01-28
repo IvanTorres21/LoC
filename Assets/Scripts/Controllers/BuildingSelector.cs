@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor.Presets;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -13,6 +14,7 @@ public class BuildingSelector : MonoBehaviour
     private BuildingPreset currentPreset;
     private Vector3 currentPos;
     private bool canPlace = true;
+    private bool isDemolishing = false;
 
     
     private GameObject building; // Model of the building to place
@@ -27,6 +29,8 @@ public class BuildingSelector : MonoBehaviour
     [SerializeField] private GameObject infoPanel;
     [SerializeField] private TextMeshProUGUI buildingName;
     [SerializeField] private TextMeshProUGUI buildingInfo;
+
+    [SerializeField] private GameObject DemolishWarning;
     
 
     private void Update()
@@ -56,8 +60,16 @@ public class BuildingSelector : MonoBehaviour
                 
 
             }
-        } else
+        } else if(isDemolishing)
         {
+            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+            {
+                GameObject bd = TileSelector.instance.GetClickedBuildingDemolishing();
+                if(bd != null)
+                    bd.GetComponent<Building>().Demolish();
+            }
+        }
+        else {
             if(Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
             {
                 SelectABuilding();
@@ -88,10 +100,15 @@ public class BuildingSelector : MonoBehaviour
     {
         if(isPlacing)
         {
+           
             Destroy(indicator.transform.GetChild(0).gameObject);
             indicator.SetActive(false);
             isPlacing = false;
             currentPreset = null;
+        } else if (isDemolishing)
+        {
+            isDemolishing = false;
+            DemolishWarning.SetActive(false);
         }
     }
 
@@ -121,6 +138,21 @@ public class BuildingSelector : MonoBehaviour
             this.gameObject.GetComponent<GuiController>().CloseMenus();
             infoPanel.SetActive(false);
         }
+    }
+
+    public void BeginDemolition()
+    {
+        if (isPlacing)
+        {
+            EndPlacemet();
+        }
+        isDemolishing = true;
+
+        DemolishWarning.SetActive(true);
+
+        if (chooseTileRoutine != null)
+            StopCoroutine(chooseTileRoutine);
+        chooseTileRoutine = StartCoroutine(chooseBuildingToDelete());
     }
 
     private IEnumerator ChooseTile()
@@ -157,6 +189,19 @@ public class BuildingSelector : MonoBehaviour
                 building.GetComponentInChildren<MeshRenderer>().material = unplaceableMaterial;
                 canPlace = false;
             }
+
+
+            yield return new WaitForSeconds(UPDATE_TIMER);
+        }
+    }
+
+    private IEnumerator chooseBuildingToDelete()
+    {
+        while (isDemolishing)
+        {
+            currentPos = TileSelector.instance.GetFreeForm();
+
+            indicator.transform.position = currentPos;
 
 
             yield return new WaitForSeconds(UPDATE_TIMER);

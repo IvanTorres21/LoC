@@ -32,6 +32,11 @@ public class MagicalGirl : PersistentMonoBehaviour
     public TextMeshProUGUI txtDef;
     public TextMeshProUGUI txtLuxury;
 
+    private void Start()
+    {
+        LoadReferencesToGui();
+    }
+
     public void ChangeLocation(Building newLocation)
     {
        
@@ -263,5 +268,21 @@ public class MagicalGirl : PersistentMonoBehaviour
     public void moveLocation(Building newLoc)
     {
         currentLocation = newLoc;
+    }
+
+    private void LoadReferencesToGui()
+    {
+        cardImg = ReferenceHolder.instance.cardImg;
+        txtHappy = ReferenceHolder.instance.txtHappy;
+        txtAtk = ReferenceHolder.instance.txtAtk;
+        txtDef = ReferenceHolder.instance.txtDef;
+        txtDislikes = ReferenceHolder.instance.txtDislikes;
+        txtLevel = ReferenceHolder.instance.txtLevel;
+        txtLikes = ReferenceHolder.instance.txtLikes;
+        txtLuxury = ReferenceHolder.instance.txtLuxury;
+        txtName = ReferenceHolder.instance.txtName;
+        txtTiredness = ReferenceHolder.instance.txtTiredness;
+        txtXp = ReferenceHolder.instance.txtXp;
+        
     }
 }

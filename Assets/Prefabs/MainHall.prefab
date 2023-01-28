@@ -59,7 +59,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa53a392a7d21494fbba63d19ad48d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  showSettings: 0
+  isOn: 1
+  groupID: 0
+  autoSync: 1
+  _zuid: 
+  _gozuid: 
   preset: {fileID: 11400000, guid: a06fc7b8fc5f33346978c83ad6801299, type: 2}
+  currentTenants: []
 --- !u!1001 &5159964862170772209
 PrefabInstance:
   m_ObjectHideFlags: 0

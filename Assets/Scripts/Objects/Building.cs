@@ -38,4 +38,14 @@ public class Building : PersistentMonoBehaviour
         else
             mg.ChangeLocation(null);
     }
+
+    public void Demolish()
+    {
+        foreach (MagicalGirl mg in currentTenants)
+        {
+            DeassignMagicalGirl(mg);
+        }
+        LoCManager.instance.OnDestroyedBuilding(this);
+        Destroy(this.gameObject);
+    }
 }
