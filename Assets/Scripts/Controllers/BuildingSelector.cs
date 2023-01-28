@@ -24,14 +24,19 @@ public class BuildingSelector : MonoBehaviour
     [SerializeField] private GameObject indicator;
     [SerializeField] private Material placeableMaterial;
     [SerializeField] private Material unplaceableMaterial;
+    [SerializeField] private GameObject DemolishWarning;
 
     [Header("Building info")]
     [SerializeField] private GameObject infoPanel;
     [SerializeField] private TextMeshProUGUI buildingName;
     [SerializeField] private TextMeshProUGUI buildingInfo;
 
-    [SerializeField] private GameObject DemolishWarning;
+    [Header("Sounds")]
+    [SerializeField] private AudioSource audioPlayer;
+    [SerializeField] private AudioClip placeSound;
+    [SerializeField] private AudioClip demolishSound;
     
+
 
     private void Update()
     {
@@ -54,6 +59,8 @@ public class BuildingSelector : MonoBehaviour
             {
                 if(!TileSelector.instance.CheckIsOccupied() || currentPreset.type == BuildingType.DECORATION)
                 {
+                    audioPlayer.volume = 1f;
+                    audioPlayer.PlayOneShot(placeSound);
                     GameObject bd = Instantiate(currentPreset.prefab, currentPos, Quaternion.Euler(0f, building.transform.rotation.eulerAngles.y, 0f));
                     LoCManager.instance.OnCreatedBuilding(bd.GetComponent<Building>());
                 }
@@ -66,7 +73,12 @@ public class BuildingSelector : MonoBehaviour
             {
                 GameObject bd = TileSelector.instance.GetClickedBuildingDemolishing();
                 if(bd != null)
+                {
+                    audioPlayer.volume = .2f;
+                    audioPlayer.PlayOneShot(demolishSound);
                     bd.GetComponent<Building>().Demolish();
+                }
+                    
             }
         }
         else {
@@ -109,6 +121,7 @@ public class BuildingSelector : MonoBehaviour
         {
             isDemolishing = false;
             DemolishWarning.SetActive(false);
+            indicator.SetActive(false);
         }
     }
 
@@ -147,7 +160,7 @@ public class BuildingSelector : MonoBehaviour
             EndPlacemet();
         }
         isDemolishing = true;
-
+        indicator.SetActive(true);
         DemolishWarning.SetActive(true);
 
         if (chooseTileRoutine != null)
