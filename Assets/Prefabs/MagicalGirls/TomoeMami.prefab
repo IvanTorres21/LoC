@@ -54,6 +54,7 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: e65f3c52b06f3104db95d0a05d9e4619, type: 2}
   isAlive: 1
   happiness: 80
+  level: 1
   tiredness: 0
   currentLocation: {fileID: 0}
   home: {fileID: 0}

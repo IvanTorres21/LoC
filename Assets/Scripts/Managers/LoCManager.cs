@@ -14,13 +14,13 @@ public class LoCManager : PersistentMonoBehaviour
 
     public int hope = 3000;
     public int karmicPower = 30;
-    private int avgHappiness;
+    public int avgHappiness;
     private int genHope;
 
-    private Building mainHall;
+    public Building mainHall;
 
     public List<MagicalGirl> magicalGirls;
-    private List<Building> buildings;
+    public List<Building> buildings;
 
     [SerializeField] private TextMeshProUGUI txtHope;
     [SerializeField] private TextMeshProUGUI txtKP;
@@ -150,7 +150,7 @@ public class LoCManager : PersistentMonoBehaviour
         avgHappiness += mg.happiness;
     }
 
-    private void UpdateGui()
+    public void UpdateGui()
     {
         txtKP.text = karmicPower.ToString();
         txtHappy.text = avgHappiness.ToString() + "%";
@@ -159,9 +159,17 @@ public class LoCManager : PersistentMonoBehaviour
 
     public void OnCreatedBuilding(Building building)
     {
+        if(building.preset.type == BuildingType.MAINHALL)
+        {
+            mainHall = building;
+        }
         hope -= building.preset.cost;
         maintenanceTotal += building.preset.maintenance;
         buildings.Add(building);
+        if(EventManager.instance.currentEvent == GameEvents.PETITION)
+        {
+            EventManager.instance.EndPetitionEvent(building.preset);
+        }
         UpdateGui();
     }
 
@@ -184,6 +192,7 @@ public class LoCManager : PersistentMonoBehaviour
     public void OnMagicalGirlDied(MagicalGirl mg)
     {
         mg.isAlive = false;
+        RecalculateHappiness();
         UpdateGui();
     }
 
@@ -198,7 +207,8 @@ public class LoCManager : PersistentMonoBehaviour
             }
         }
 
-        avgHappiness = avgHappiness / magicalGirls.Count();
+        if(magicalGirls.Count > 0)
+            avgHappiness = avgHappiness / magicalGirls.Count();
     }
 
     public override void OnPostLoad()

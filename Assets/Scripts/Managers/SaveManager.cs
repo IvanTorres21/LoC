@@ -10,11 +10,12 @@ public class SaveManager : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("Load level: " + !MainMenuController.instance.newGame);
+        
         if (!MainMenuController.instance.newGame)
         {
             StartCoroutine(LoadLevelOnStart());
         }
+        TimeController.instance.ChangeSpeed(0);
     }
 
    

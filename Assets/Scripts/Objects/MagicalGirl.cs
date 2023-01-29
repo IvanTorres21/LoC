@@ -12,9 +12,10 @@ public class MagicalGirl : PersistentMonoBehaviour
     public bool isAlive = true;
 
     public int happiness = 80;
-    private int level = 1;
-    private int xp = 0;
+    public int level = 1;
+    public int xp = 0;
     public int tiredness;
+    public int daysTillBreaking = 0;
 
     public Building currentLocation;
     public Building home;
@@ -133,6 +134,18 @@ public class MagicalGirl : PersistentMonoBehaviour
 
         if (happiness < 0)
             happiness = 0;
+
+        if(happiness <= 10)
+        {
+            daysTillBreaking++;
+            if (daysTillBreaking >= preset.breakingPoint)
+                ReachBreakingPoint();
+        } else
+        {
+            daysTillBreaking--;
+            if (daysTillBreaking < 0)
+                daysTillBreaking = 0;
+        }
     }
 
 
@@ -284,5 +297,15 @@ public class MagicalGirl : PersistentMonoBehaviour
         txtTiredness = ReferenceHolder.instance.txtTiredness;
         txtXp = ReferenceHolder.instance.txtXp;
         
+    }
+
+    private void ReachBreakingPoint()
+    {
+       if(preset.socialType == SocialType.PROBLEMATIC)
+       {
+
+       } else {
+            EventManager.instance.SuicideEvent(this);
+       }
     }
 }

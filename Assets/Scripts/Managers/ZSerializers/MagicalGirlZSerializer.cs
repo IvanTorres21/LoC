@@ -4,7 +4,10 @@ public sealed class MagicalGirlZSerializer : ZSerializer.Internal.ZSerializer
     public MGPreset preset;
     public System.Boolean isAlive;
     public System.Int32 happiness;
+    public System.Int32 level;
+    public System.Int32 xp;
     public System.Int32 tiredness;
+    public System.Int32 daysTillBreaking;
     public Building currentLocation;
     public Building home;
     public UnityEngine.UI.Image cardImg;
@@ -26,7 +29,10 @@ public sealed class MagicalGirlZSerializer : ZSerializer.Internal.ZSerializer
          preset = (MGPreset)typeof(MagicalGirl).GetField("preset").GetValue(instance);
          isAlive = (System.Boolean)typeof(MagicalGirl).GetField("isAlive").GetValue(instance);
          happiness = (System.Int32)typeof(MagicalGirl).GetField("happiness").GetValue(instance);
+         level = (System.Int32)typeof(MagicalGirl).GetField("level").GetValue(instance);
+         xp = (System.Int32)typeof(MagicalGirl).GetField("xp").GetValue(instance);
          tiredness = (System.Int32)typeof(MagicalGirl).GetField("tiredness").GetValue(instance);
+         daysTillBreaking = (System.Int32)typeof(MagicalGirl).GetField("daysTillBreaking").GetValue(instance);
          currentLocation = (Building)typeof(MagicalGirl).GetField("currentLocation").GetValue(instance);
          home = (Building)typeof(MagicalGirl).GetField("home").GetValue(instance);
          cardImg = (UnityEngine.UI.Image)typeof(MagicalGirl).GetField("cardImg").GetValue(instance);
@@ -49,7 +55,10 @@ public sealed class MagicalGirlZSerializer : ZSerializer.Internal.ZSerializer
          typeof(MagicalGirl).GetField("preset").SetValue(component, preset);
          typeof(MagicalGirl).GetField("isAlive").SetValue(component, isAlive);
          typeof(MagicalGirl).GetField("happiness").SetValue(component, happiness);
+         typeof(MagicalGirl).GetField("level").SetValue(component, level);
+         typeof(MagicalGirl).GetField("xp").SetValue(component, xp);
          typeof(MagicalGirl).GetField("tiredness").SetValue(component, tiredness);
+         typeof(MagicalGirl).GetField("daysTillBreaking").SetValue(component, daysTillBreaking);
          typeof(MagicalGirl).GetField("currentLocation").SetValue(component, currentLocation);
          typeof(MagicalGirl).GetField("home").SetValue(component, home);
          typeof(MagicalGirl).GetField("cardImg").SetValue(component, cardImg);

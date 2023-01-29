@@ -54,6 +54,13 @@ public class GuiController : MonoBehaviour
     [SerializeField] private GameObject buildingScrollContent;
     [SerializeField] private GameObject prefabBuildingTenant;
 
+    [Header("Event Panels")]
+    [SerializeField] private GameObject eventPanel;
+    [SerializeField] private TextMeshProUGUI eventText;
+    public GameObject options;
+    [SerializeField] private GameObject blocker;
+    public GameObject eventOption;
+
 
     public void ChangePanelBuildings(GameObject panel)
     {
@@ -81,6 +88,7 @@ public class GuiController : MonoBehaviour
 
     public void CloseMenus()
     {
+        
         optionPanel.SetActive(false);
         mgDetailsPanel.SetActive(false);
         kpPanel.SetActive(false);
@@ -107,6 +115,11 @@ public class GuiController : MonoBehaviour
         {
             GameObject card = Instantiate(prefabCardMg, scrollViewContent.transform);
             card.GetComponent<Image>().sprite = girl.preset.card;
+            if (!girl.isAlive)
+            {
+                card.GetComponent<Image>().color = new Color(126, 9, 9);
+            }
+                
             card.GetComponent<Button>().onClick.AddListener(() => SeeMgDetails(girl));
         }
     }
@@ -187,13 +200,16 @@ public class GuiController : MonoBehaviour
 
         foreach (MagicalGirl mg in LoCManager.instance.magicalGirls)
         {
-            GameObject assignMg = Instantiate(assignableGirlPrefab, assignableScroller.transform);
-            assignMg.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.MG_name;
-            assignMg.GetComponent<Button>().onClick.AddListener(() => building.AssignMagicalGirl(mg));
-            if(building.preset.type == BuildingType.HOUSE)
-                assignMg.GetComponent<Button>().onClick.AddListener(() => SeeHomeDetails(building));
-             else
-                assignMg.GetComponent<Button>().onClick.AddListener(() => SeeBuildingDetails(building)); 
+            if (mg.isAlive)
+            {
+                GameObject assignMg = Instantiate(assignableGirlPrefab, assignableScroller.transform);
+                assignMg.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mg.preset.MG_name;
+                assignMg.GetComponent<Button>().onClick.AddListener(() => building.AssignMagicalGirl(mg));
+                if (building.preset.type == BuildingType.HOUSE)
+                    assignMg.GetComponent<Button>().onClick.AddListener(() => SeeHomeDetails(building));
+                else
+                    assignMg.GetComponent<Button>().onClick.AddListener(() => SeeBuildingDetails(building));
+            }
         }
     }
 
@@ -203,5 +219,20 @@ public class GuiController : MonoBehaviour
         assignablePanel.SetActive(true);
         if (currentBuilding != null)
             GetGirlsToAssign(currentBuilding);
+    }
+
+    public void ShowEventText(string text)
+    {
+        TimeController.instance.ChangeSpeed(0f);
+        eventPanel.SetActive(true);
+        blocker.SetActive(true);
+        eventText.text = text;
+    }
+
+    public void CloseEventPanel()
+    {
+        TimeController.instance.ChangeSpeed(1f);
+        eventPanel.SetActive(false);
+        blocker.SetActive(false);
     }
 }
