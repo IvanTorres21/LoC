@@ -26,6 +26,10 @@ public class ReferenceHolder : MonoBehaviour
     public TextMeshProUGUI txtKPLoC;
     public TextMeshProUGUI txtHappyLoC;
 
+    [Header("Time Manager")]
+    public TextMeshProUGUI timeTxt;
+    public TextMeshProUGUI dayTxt;
+
     private void Start()
     {
         if (instance == null)

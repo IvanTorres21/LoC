@@ -47,14 +47,32 @@ public class BuildingSelector : MonoBehaviour
 
         if(isPlacing)
         {
-            if (Input.GetKeyDown(KeyCode.Q))
+            if(currentPreset.type == BuildingType.DECORATION)
+            { 
+                if (Input.GetKey(KeyCode.Q))
+                {
+
+                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + 1f, 0f);
+                }
+                else if (Input.GetKey(KeyCode.E))
+                {
+                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - 1f, 0f);
+                }
+            } else
             {
-                building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + 90f, 0f);
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+
+                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + 90f, 0f);
+                }
+                else if (Input.GetKeyDown(KeyCode.E))
+                {
+                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - 90f, 0f);
+                }
             }
-            else if (Input.GetKeyDown(KeyCode.E))
-            {
-                building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - 90f, 0f);
-            }
+            
+
+
             if (canPlace && Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
             {
                 if(!TileSelector.instance.CheckIsOccupied() || currentPreset.type == BuildingType.DECORATION)

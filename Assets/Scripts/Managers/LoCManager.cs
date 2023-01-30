@@ -26,6 +26,8 @@ public class LoCManager : PersistentMonoBehaviour
     [SerializeField] private TextMeshProUGUI txtKP;
     [SerializeField] private TextMeshProUGUI txtHappy;
 
+    public int daysSinceLastEvent = 0;
+
     private void Awake()
     {
         if (instance == null)
@@ -87,7 +89,13 @@ public class LoCManager : PersistentMonoBehaviour
             karmicPower += aux;
         }
 
-        //TODO: Possible special events?
+        if(EventManager.instance.currentEvent == GameEvents.KILLER && EventManager.instance.currentVictim != null)
+        {
+            EventManager.instance.FightKillerMg();
+        }
+
+        CheckIfRandomEvent();
+
         UpdateGui();
     }
 
@@ -99,7 +107,7 @@ public class LoCManager : PersistentMonoBehaviour
             // Earnings
             if (currentLoc.preset.hope != 0 && ( (float) mg.tiredness / (float) mg.preset.MAXTIREDNESS) <= .7f)
             {
-                genHope += mg.currentLocation.preset.hope;
+                genHope += mg.currentLocation.preset.hope * (1 + (mg.level / 10));
             }
 
             // Tiredness
@@ -115,10 +123,17 @@ public class LoCManager : PersistentMonoBehaviour
 
             // Happiness
 
-            if (mg.preset.likes.Contains(currentLoc.preset.type))
-                mg.IncreaseHappiness(currentLoc.preset.happyIndex, currentLoc.preset);
-            else if (mg.preset.dislikes.Contains(currentLoc.preset.type))
+            if(((float)mg.tiredness / (float)mg.preset.MAXTIREDNESS) <= .7f)
+            {
+                if (mg.preset.likes.Contains(currentLoc.preset.type))
+                    mg.IncreaseHappiness(currentLoc.preset.happyIndex, currentLoc.preset);
+                else if (mg.preset.dislikes.Contains(currentLoc.preset.type))
+                    mg.DecreaseHappiness(currentLoc.preset.happyIndex, currentLoc.preset);
+            } else
+            {
                 mg.DecreaseHappiness(currentLoc.preset.happyIndex, currentLoc.preset);
+            }
+            
 
             // XP
 
@@ -148,6 +163,23 @@ public class LoCManager : PersistentMonoBehaviour
         }
 
         avgHappiness += mg.happiness;
+    }
+
+    
+    private void CheckIfRandomEvent()
+    {
+        if (EventManager.instance.currentEvent != GameEvents.NONE) //If there is an event running stop
+            return;
+
+        float chance = Random.Range(0f, 100f);
+        if(chance <= daysSinceLastEvent * 5)
+        {
+            daysSinceLastEvent = 0;
+            EventManager.instance.GetRandomEvent();
+        } else
+        {
+            daysSinceLastEvent++;
+        }
     }
 
     public void UpdateGui()
@@ -186,6 +218,7 @@ public class LoCManager : PersistentMonoBehaviour
         karmicPower -= 30;
         magicalGirls.Add(mg);
         RecalculateHappiness();
+        CheckIfNewEventAdded();
         UpdateGui();
     }
 
@@ -199,16 +232,20 @@ public class LoCManager : PersistentMonoBehaviour
     private void RecalculateHappiness()
     {
         avgHappiness = 0;
+        int amount = 0;
         foreach(MagicalGirl mg in magicalGirls)
         {
             if(mg.isAlive)
             {
                 avgHappiness += mg.happiness;
+                amount++;
             }
         }
 
+
+
         if(magicalGirls.Count > 0)
-            avgHappiness = avgHappiness / magicalGirls.Count();
+            avgHappiness = avgHappiness / amount;
     }
 
     public override void OnPostLoad()
@@ -226,5 +263,35 @@ public class LoCManager : PersistentMonoBehaviour
         txtHappy = ReferenceHolder.instance.txtHappyLoC;
         txtHope = ReferenceHolder.instance.txtHopeLoC;
         txtKP = ReferenceHolder.instance.txtKPLoC;
+    }
+
+    private void CheckIfNewEventAdded()
+    {
+        if(magicalGirls.Count >= 1)
+        {
+            if (!EventManager.instance.avaliableEvents.Contains(GameEvents.PETITION))
+                EventManager.instance.avaliableEvents.Add(GameEvents.PETITION);
+        }
+
+        if (magicalGirls.Count >= 2)
+        {
+            if(!EventManager.instance.avaliableEvents.Contains(GameEvents.DISPUTE))
+                EventManager.instance.avaliableEvents.Add(GameEvents.DISPUTE);   
+        }
+
+        if( magicalGirls.Count >= 5)
+        {
+            if(!EventManager.instance.avaliableEvents.Contains(GameEvents.HELPGROUP))
+                EventManager.instance.avaliableEvents.Add(GameEvents.HELPGROUP);
+
+            if (!EventManager.instance.avaliableEvents.Contains(GameEvents.FESTIVAL))
+                EventManager.instance.avaliableEvents.Add(GameEvents.FESTIVAL);
+        }
+
+        if(magicalGirls.Count >= 7)
+        {
+            if (!EventManager.instance.avaliableEvents.Contains(GameEvents.TOURNAMENT))
+                EventManager.instance.avaliableEvents.Add(GameEvents.TOURNAMENT);
+        }    
     }
 }

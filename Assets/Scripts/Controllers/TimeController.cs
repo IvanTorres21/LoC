@@ -44,4 +44,14 @@ public class TimeController : PersistentMonoBehaviour
     {
         modifier = newMod;
     }
+
+    public override void OnPostLoad()
+    {
+        instance = this;
+        dayTxt = ReferenceHolder.instance.dayTxt;
+        timeTxt = ReferenceHolder.instance.timeTxt;
+        dayTxt.text = "Day: " + day;
+        ChangeGUI();
+        base.OnPostLoad();
+    }
 }

@@ -18,7 +18,7 @@ MonoBehaviour:
   skills: 
   problems: 
   card: {fileID: 21300000, guid: 29dfee1c6603e03469f1b60f13591172, type: 3}
-  likes: 000000000200000004000000
+  likes: 0200000004000000
   dislikes: 00000000
   luxuryLevel: 2
   foodConsumption: 4

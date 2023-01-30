@@ -78,7 +78,7 @@ public class TileSelector : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit))
         {
-            if(hit.collider.CompareTag("Building")) 
+            if(hit.collider.CompareTag("Building") || hit.collider.CompareTag("Road")) 
                 isOccupied = true;
         }
 
@@ -92,7 +92,7 @@ public class TileSelector : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider.CompareTag("Building"))
+            if (hit.collider.CompareTag("Building") )
             {
                return hit.collider.gameObject;
             }
@@ -108,7 +108,7 @@ public class TileSelector : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider.CompareTag("Building") || hit.collider.CompareTag("Decoration"))
+            if (hit.collider.CompareTag("Building") || hit.collider.CompareTag("Decoration") || hit.collider.CompareTag("Road"))
             {
                 return hit.collider.gameObject;
             }

@@ -61,6 +61,9 @@ public class GuiController : MonoBehaviour
     [SerializeField] private GameObject blocker;
     public GameObject eventOption;
 
+    [Header("Notification Panel")]
+    [SerializeField] private GameObject notifPanel;
+    [SerializeField] private TextMeshProUGUI notifText;
 
     public void ChangePanelBuildings(GameObject panel)
     {
@@ -69,6 +72,9 @@ public class GuiController : MonoBehaviour
         trainingPanel.SetActive(false);
         servicesPanel.SetActive(false);
         decorPanel.SetActive(false);
+        eventPanel.SetActive(false);
+        buildingInfoPanel.SetActive(false);
+        notifPanel.SetActive(false);
         panel.SetActive(true);
     }
 
@@ -88,7 +94,9 @@ public class GuiController : MonoBehaviour
 
     public void CloseMenus()
     {
-        
+        eventPanel.SetActive(false);
+        buildingInfoPanel.SetActive(false);
+        notifPanel.SetActive(false);
         optionPanel.SetActive(false);
         mgDetailsPanel.SetActive(false);
         kpPanel.SetActive(false);
@@ -117,7 +125,8 @@ public class GuiController : MonoBehaviour
             card.GetComponent<Image>().sprite = girl.preset.card;
             if (!girl.isAlive)
             {
-                card.GetComponent<Image>().color = new Color(126, 9, 9);
+                Debug.Log("O h");
+                card.GetComponent<Image>().color = Color.red;
             }
                 
             card.GetComponent<Button>().onClick.AddListener(() => SeeMgDetails(girl));
@@ -223,6 +232,7 @@ public class GuiController : MonoBehaviour
 
     public void ShowEventText(string text)
     {
+        
         TimeController.instance.ChangeSpeed(0f);
         eventPanel.SetActive(true);
         blocker.SetActive(true);
@@ -234,5 +244,11 @@ public class GuiController : MonoBehaviour
         TimeController.instance.ChangeSpeed(1f);
         eventPanel.SetActive(false);
         blocker.SetActive(false);
+    }
+
+    public void ShowNotifPanel()
+    {
+        ChangePanelBuildings(notifPanel);
+        notifText.text = EventManager.instance.GetEventNotificationText();
     }
 }

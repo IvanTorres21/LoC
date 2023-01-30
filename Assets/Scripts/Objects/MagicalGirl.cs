@@ -198,6 +198,28 @@ public class MagicalGirl : PersistentMonoBehaviour
         return modifier;
     }
 
+    public void LoseBattle(int totalDiff)
+    {
+        if (totalDiff <= 500)
+            tiredness += 20;
+        else if (totalDiff > 500 && totalDiff <= 1500)
+        {
+            tiredness += 30;
+        } else if (totalDiff > 1500 && totalDiff <= 3000)
+        {
+            tiredness += 40;
+        } else if (totalDiff > 0)
+        {
+            tiredness += 50;
+        }
+
+        if(tiredness >= 100)
+        {
+            tiredness = 100;
+            Die();
+        }
+    }
+
     public int CalculateAtkModifier()
     {
         float mod = preset.modATK * level; // 1 * 3 = 3
@@ -301,11 +323,31 @@ public class MagicalGirl : PersistentMonoBehaviour
 
     private void ReachBreakingPoint()
     {
-       if(preset.socialType == SocialType.PROBLEMATIC)
-       {
+      if(EventManager.instance.currentEvent != GameEvents.KILLER)
+        {
+            if (preset.socialType == SocialType.PROBLEMATIC)
+            {
+                EventManager.instance.KillerEvent(this);
+            }
+            else
+            {
+                EventManager.instance.SuicideEvent(this);
+            }
+        }
+    }
 
-       } else {
-            EventManager.instance.SuicideEvent(this);
-       }
+    private void Die()
+    {
+        if(currentLocation != null)
+            currentLocation.DeassignMagicalGirl(this);
+        if (home != null)
+            home.DeassignMagicalGirl(this);
+        if (EventManager.instance.currentVictim == this)
+        {
+            EventManager.instance.KilledMagicalGirl();
+        } else
+        {
+            EventManager.instance.EndKillerEvent();
+        }
     }
 }

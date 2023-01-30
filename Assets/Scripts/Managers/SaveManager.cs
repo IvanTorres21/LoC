@@ -22,20 +22,25 @@ public class SaveManager : MonoBehaviour
     private IEnumerator LoadLevelOnStart()
     {
         loadScreen.SetActive(true);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         loadScreen.SetActive(false);
-        LoadCurrentAsync();
+        LoadStartLevel();
     }
+
+
 
     public async void SaveCurrentAsync ()
     {
         await ZSerialize.SaveScene();
     }
 
-    public async void LoadCurrentAsync()
+    public void LoadCurrentAsync()
     {
-       await ZSerialize.LoadScene();
-       
+        StartCoroutine(LoadLevelOnStart());
     }
 
+    public async void LoadStartLevel()
+    {
+        await ZSerialize.LoadScene();
+    }
 }
