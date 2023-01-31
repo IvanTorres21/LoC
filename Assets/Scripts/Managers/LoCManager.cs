@@ -26,6 +26,9 @@ public class LoCManager : PersistentMonoBehaviour
     [SerializeField] private TextMeshProUGUI txtKP;
     [SerializeField] private TextMeshProUGUI txtHappy;
 
+    public List<string> notifications = new List<string>();
+
+
     public int daysSinceLastEvent = 0;
 
     private void Awake()
@@ -75,11 +78,11 @@ public class LoCManager : PersistentMonoBehaviour
         // Karmic Power
         if(magicalGirls.Count > 0)
         {
-            avgHappiness = avgHappiness / magicalGirls.Count();
+           RecalculateHappiness();
         }
 
 
-        if(avgHappiness >= 40)
+        if(avgHappiness >= 60)
         {
             int aux = avgHappiness;
 
@@ -133,6 +136,12 @@ public class LoCManager : PersistentMonoBehaviour
             {
                 mg.DecreaseHappiness(currentLoc.preset.happyIndex, currentLoc.preset);
             }
+
+            if(mg.home.preset.luxuryValue < mg.preset.luxuryLevel)
+            {
+                AddNotification(mg.preset.MG_name + " isn't in a house of her luxury level");
+                mg.DecreaseHappiness(mg.home.preset.happyIndex, mg.home.preset);
+            }
             
 
             // XP
@@ -151,6 +160,7 @@ public class LoCManager : PersistentMonoBehaviour
             }
             else
             {
+                AddNotification(mg.preset.MG_name + " isn't in a house of her luxury level");
                 mg.DecreaseHappiness(mg.home.preset.happyIndex, mg.home.preset);
             }
 
@@ -158,8 +168,18 @@ public class LoCManager : PersistentMonoBehaviour
 
         if (mg.home == null) // Is homeless
         {
+            AddNotification(mg.preset.MG_name + " is homeless!");
             mg.DecreaseHappiness(mainHall.preset.happyIndex, mainHall.preset);
             mg.IncreaseTiredness(mainHall.preset.relaxIndex, mainHall.preset);
+        }
+
+        if(mg.happiness == 0) {
+            AddNotification(mg.preset.MG_name + " happiness is in critical levels!");
+        }
+
+        if (((float)mg.tiredness / (float)mg.preset.MAXTIREDNESS) > .7f)
+        {
+            AddNotification(mg.preset.MG_name + " is to tired to keep working!");
         }
 
         avgHappiness += mg.happiness;
@@ -246,6 +266,11 @@ public class LoCManager : PersistentMonoBehaviour
 
         if(magicalGirls.Count > 0)
             avgHappiness = avgHappiness / amount;
+
+        if(avgHappiness < 60)
+        {
+            AddNotification("Average happiness is low! We are not generating Karmic Power!");
+        }
     }
 
     public override void OnPostLoad()
@@ -293,5 +318,17 @@ public class LoCManager : PersistentMonoBehaviour
             if (!EventManager.instance.avaliableEvents.Contains(GameEvents.TOURNAMENT))
                 EventManager.instance.avaliableEvents.Add(GameEvents.TOURNAMENT);
         }    
+    }
+
+    public void AddNotification(string message)
+    {
+        GetComponent<GuiController>().NewNotifAlert();
+        string notif = "Day: " + TimeController.instance.day + " | " + message;
+        notifications.Add(notif);
+    }
+
+    public void RemoveNotification(int index)
+    {
+        notifications.RemoveAt(index);
     }
 }

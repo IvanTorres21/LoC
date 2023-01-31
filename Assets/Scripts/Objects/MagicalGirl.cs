@@ -58,38 +58,48 @@ public class MagicalGirl : PersistentMonoBehaviour
             if (xp > 6500)
                 xp = 6500;
 
-            switch(xp)
+            if(xp >= 6500 && level != 10)
             {
-                case 200:
-                    level = 2;
-                    break;
-                case 500:
-                    level = 3;
-                    break;
-                case 1000:
-                    level = 4;
-                    break;
-                case 1700:
-                    level = 5;
-                    break;
-                case 2500:
-                    level = 6;
-                    break;
-                case 3300:
-                    level = 7;
-                    break;
-                case 4000:
-                    level = 8;
-                    break;
-                case 5000:
-                    level = 9;
-                    break;
-                case 6500:
-                    level = 10;
-                    break;
-                default:
-                    break;
+                level = 10;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            } else if (xp >= 5000 && level != 9) {
+                level = 9;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            } else if (xp >= 4000 && level != 8)
+            {
+                level = 8;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
             }
+            else if (xp >= 3300 && level != 7)
+            {
+                level = 7;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            }
+            else if(xp >= 2500 && level != 6)
+            {
+                level = 6;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            } else if (xp >= 1700 && level != 5)
+            {
+                level = 5;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            }
+            else if (xp >= 1000 && level != 4)
+            {
+                level = 4;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            }
+            else if (xp >= 500 && level != 3)
+            {
+                level = 3;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            }
+            else if (xp >= 200 && level != 2)
+            {
+                level = 2;
+                LoCManager.instance.AddNotification(preset.MG_name + " has leveled up!");
+            }
+
         }
     }
 
@@ -323,6 +333,8 @@ public class MagicalGirl : PersistentMonoBehaviour
 
     private void ReachBreakingPoint()
     {
+
+        LoCManager.instance.AddNotification(preset.MG_name + " has reached her breaking point.");
       if(EventManager.instance.currentEvent != GameEvents.KILLER)
         {
             if (preset.socialType == SocialType.PROBLEMATIC)
@@ -338,7 +350,9 @@ public class MagicalGirl : PersistentMonoBehaviour
 
     private void Die()
     {
-        if(currentLocation != null)
+        LoCManager.instance.AddNotification(preset.MG_name + " has died.");
+
+        if (currentLocation != null)
             currentLocation.DeassignMagicalGirl(this);
         if (home != null)
             home.DeassignMagicalGirl(this);

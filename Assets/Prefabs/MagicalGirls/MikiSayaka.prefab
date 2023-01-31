@@ -55,7 +55,9 @@ MonoBehaviour:
   isAlive: 1
   happiness: 80
   level: 1
+  xp: 0
   tiredness: 0
+  daysTillBreaking: 0
   currentLocation: {fileID: 0}
   home: {fileID: 0}
   cardImg: {fileID: 0}

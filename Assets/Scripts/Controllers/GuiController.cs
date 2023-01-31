@@ -64,6 +64,9 @@ public class GuiController : MonoBehaviour
     [Header("Notification Panel")]
     [SerializeField] private GameObject notifPanel;
     [SerializeField] private TextMeshProUGUI notifText;
+    [SerializeField] private GameObject notifContent;
+    [SerializeField] private GameObject notifPrefab;
+    [SerializeField] private GameObject newNotif;
 
     public void ChangePanelBuildings(GameObject panel)
     {
@@ -248,7 +251,31 @@ public class GuiController : MonoBehaviour
 
     public void ShowNotifPanel()
     {
+        foreach (Transform tan in notifContent.transform)
+        {
+            Destroy(tan.gameObject);
+        }
+
         ChangePanelBuildings(notifPanel);
         notifText.text = EventManager.instance.GetEventNotificationText();
+        ReadNotifications();
+
+        for(int i = 0; i < LoCManager.instance.notifications.Count; i++)
+        {
+            GameObject notif = Instantiate(notifPrefab, notifContent.transform);
+            notif.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = LoCManager.instance.notifications[i];
+            notif.GetComponent<Button>().onClick.AddListener(() => LoCManager.instance.RemoveNotification(i));
+            notif.GetComponent<Button>().onClick.AddListener(() => Destroy(notif));
+        }
+    }
+
+    public void NewNotifAlert()
+    {
+        newNotif.SetActive(true);
+    }
+
+    public void ReadNotifications()
+    {
+        newNotif.SetActive(false);
     }
 }
