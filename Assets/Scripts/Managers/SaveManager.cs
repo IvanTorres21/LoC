@@ -7,14 +7,18 @@ using ZSerializer;
 public class SaveManager : MonoBehaviour
 {
     [SerializeField] private GameObject loadScreen;
+    [SerializeField] private TutorialController controller;
 
     private void Start()
     {
-        
         if (!MainMenuController.instance.newGame)
         {
             StartCoroutine(LoadLevelOnStart());
+        } else
+        {
+            controller.StartTutorial();
         }
+
         TimeController.instance.ChangeSpeed(0);
     }
 

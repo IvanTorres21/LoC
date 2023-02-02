@@ -16,7 +16,7 @@ public class TimeController : PersistentMonoBehaviour
     [SerializeField] private TextMeshProUGUI timeTxt;
     [SerializeField] private TextMeshProUGUI dayTxt;
 
-    private void Start()
+    private void Awake()
     {
         instance = this;
     }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8710368932958066298}
   - component: {fileID: 5110310135105626326}
   - component: {fileID: 8362489654958826357}
+  - component: {fileID: 1223307304767672398}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -97,6 +98,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1223307304767672398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348693846153219390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 6098349391581157772}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8710368932958066298}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5110310135105626326}
+    zuid: 
+  - typeFullName: UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8362489654958826357}
+    zuid: 
 --- !u!1 &4391970490315051493
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,3 +456,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9068c0ca1d1545f41a697eedf4d31d39, type: 3}
   m_PrefabInstance: {fileID: 6287414489958680673}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6593283029176464688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9068c0ca1d1545f41a697eedf4d31d39, type: 3}
+  m_PrefabInstance: {fileID: 6287414489958680673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8211962233474600767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6593283029176464688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5821988113825460106}
+    zuid: 

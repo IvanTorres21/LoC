@@ -37,6 +37,8 @@ public class BuildingSelector : MonoBehaviour
     [SerializeField] private AudioClip placeSound;
     [SerializeField] private AudioClip demolishSound;
 
+    public bool canEscape = true;
+
 
     private void FixedUpdate()
     {
@@ -70,7 +72,7 @@ public class BuildingSelector : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(canEscape && Input.GetKeyDown(KeyCode.Escape))
         {
             EndPlacemet();
         }
@@ -101,6 +103,10 @@ public class BuildingSelector : MonoBehaviour
                     audioPlayer.PlayOneShot(placeSound);
                     GameObject bd = Instantiate(currentPreset.prefab, currentPos, Quaternion.Euler(0f, building.transform.rotation.eulerAngles.y, 0f));
                     LoCManager.instance.OnCreatedBuilding(bd.GetComponent<Building>());
+                    if(!canEscape) // We are in the tutorial end placement
+                    {
+                        EndPlacemet();
+                    }
                 }
                 
 

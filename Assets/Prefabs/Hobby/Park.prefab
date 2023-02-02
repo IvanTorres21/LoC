@@ -180,6 +180,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6a38507e16ebcc499d618860eb7af06, type: 3}
+--- !u!1 &7413780717461061702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a6a38507e16ebcc499d618860eb7af06, type: 3}
+  m_PrefabInstance: {fileID: 7647784629212380439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4766421978197611629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413780717461061702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 7901806222235933436}
+    zuid: 
 --- !u!4 &7901806222235933436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6a38507e16ebcc499d618860eb7af06, type: 3}

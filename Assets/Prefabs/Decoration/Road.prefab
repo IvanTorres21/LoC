@@ -185,3 +185,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fe229fa1def018b41946508f69e8df28, type: 3}
   m_PrefabInstance: {fileID: 5091726554410483529}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5361565606325928472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fe229fa1def018b41946508f69e8df28, type: 3}
+  m_PrefabInstance: {fileID: 5091726554410483529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1973553773028818131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5361565606325928472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPreSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPreLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostSave:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  onPostLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    targetZUIDs: []
+  showSettings: 0
+  groupID: 0
+  _zuid: 
+  _gozuid: 
+  serializedComponents:
+  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 4693818641650686114}
+    zuid: 
+  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 8542220987515344647}
+    zuid: 
+  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    persistenceType: 0
+    component: {fileID: 5866193546245956557}
+    zuid: 
+--- !u!23 &5866193546245956557 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: fe229fa1def018b41946508f69e8df28, type: 3}
+  m_PrefabInstance: {fileID: 5091726554410483529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &8542220987515344647 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: fe229fa1def018b41946508f69e8df28, type: 3}
+  m_PrefabInstance: {fileID: 5091726554410483529}
+  m_PrefabAsset: {fileID: 0}
