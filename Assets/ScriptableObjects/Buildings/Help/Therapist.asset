@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
   m_Name: Therapist
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6315883660938555112, guid: c93be01556e717648ac7ff5ecc1ea91b, type: 3}
+  prefab: {fileID: 4391970490315051493, guid: fde9920295eea3442815085f10418b28, type: 3}
   building_name: Therapist
-  cost: 2400
+  cost: 3800
   maintenance: 130
-  hope: 5
-  maxPeople: 4
-  size: 0
-  type: 2
-  luxuryValue: 2
-  activityType: 0
+  hope: 0
+  maxPeople: 2
+  size: 1
+  type: 4
+  luxuryValue: 3
+  activityType: 1
   passiveBuilding: 0
-  relaxIndex: 8
-  happyIndex: 5
+  relaxIndex: 3
+  happyIndex: 8
   xpIndex: 0
-  hitboxSize: {x: 0.55216455, y: 0.1, z: 0.6290674}
+  hitboxSize: {x: 1.0422957, y: 0.1, z: 1.0635417}
   foodAmount: 0
   trainingAmount: 0
   hobbyType: 
