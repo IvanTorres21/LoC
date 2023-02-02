@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
   m_Name: Mansion
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 6081946961392348343, guid: eb7f67b5753a410409c734f5ba8c40f5, type: 3}
   building_name: Mansion
   cost: 8500
   maintenance: 300
@@ -26,6 +26,7 @@ MonoBehaviour:
   relaxIndex: 30
   happyIndex: 20
   xpIndex: 0
+  hitboxSize: {x: 0, y: 0, z: 0}
   foodAmount: 0
   trainingAmount: 0
   hobbyType: 

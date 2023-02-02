@@ -26,28 +26,6 @@ public class TileSelector : MonoBehaviour
         cam = Camera.main;
     }
 
-    public Vector3 GetCurrentTile()
-    {
-        Vector3 tile = new Vector3(0, -100, 0);
-
-        if (EventSystem.current.IsPointerOverGameObject())
-        {
-            return tile;
-        }
-
-        Plane plane = new Plane(Vector3.up, Vector3.zero);
-        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        float rayOut = 0f;
-        
-        if(plane.Raycast(ray, out rayOut))
-        {
-            tile = ray.GetPoint(rayOut) - new Vector3(offset, 0f, offset);
-            tile = new Vector3(Mathf.CeilToInt(tile.x), 0f, Mathf.CeilToInt(tile.z));
-        }
-
-        return tile;
-    }
-
     public Vector3 GetFreeForm()
     {
         Vector3 tile = new Vector3(0, -100, 0);
@@ -60,7 +38,7 @@ public class TileSelector : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit rayOut;
 
-        if (Physics.Raycast(ray, out rayOut))
+        if (Physics.Raycast(ray, out rayOut, Mathf.Infinity, 1 << 3))
         {
             tile = rayOut.point;
           
@@ -69,20 +47,24 @@ public class TileSelector : MonoBehaviour
         return tile;
     }
 
-    public bool CheckIsOccupied()
+    public bool CheckIsOccupied(BuildingPreset preset, Quaternion rotation)
     {
-        bool isOccupied = false;
-
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit))
         {
-            if(hit.collider.CompareTag("Building") || hit.collider.CompareTag("Road")) 
-                isOccupied = true;
+
+            Collider[] colliders = Physics.OverlapBox(hit.point, preset.hitboxSize / 2, rotation, 1 << 0);
+
+            Debug.Log("Point: " + hit.point + "\nHit: " + colliders.Length);
+
+            if (colliders.Length == 0)
+                return false;
+
         }
 
-        return isOccupied;
+        return true;
     }
 
     public GameObject GetClickedBuilding()
@@ -116,4 +98,7 @@ public class TileSelector : MonoBehaviour
         }
         return null;
     }
+
+
+
 }

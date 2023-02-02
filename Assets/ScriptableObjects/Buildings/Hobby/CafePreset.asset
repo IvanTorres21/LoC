@@ -26,6 +26,7 @@ MonoBehaviour:
   relaxIndex: 8
   happyIndex: 5
   xpIndex: 0
+  hitboxSize: {x: 0.55216455, y: 0.1, z: 0.6290674}
   foodAmount: 0
   trainingAmount: 0
   hobbyType: 

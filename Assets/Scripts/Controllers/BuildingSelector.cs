@@ -25,6 +25,7 @@ public class BuildingSelector : MonoBehaviour
     [SerializeField] private Material placeableMaterial;
     [SerializeField] private Material unplaceableMaterial;
     [SerializeField] private GameObject DemolishWarning;
+    bool oneDegreeMode = false;
 
     [Header("Building info")]
     [SerializeField] private GameObject infoPanel;
@@ -35,8 +36,37 @@ public class BuildingSelector : MonoBehaviour
     [SerializeField] private AudioSource audioPlayer;
     [SerializeField] private AudioClip placeSound;
     [SerializeField] private AudioClip demolishSound;
-    
 
+
+    private void FixedUpdate()
+    {
+        if(isPlacing) {
+
+            if (LoCManager.instance.hope >= currentPreset.cost)
+            {
+                if (currentPreset.type == BuildingType.PROP)
+                {
+                    indicator.transform.GetChild(0).GetComponent<MeshRenderer>().material = placeableMaterial;
+                    canPlace = true;
+                }
+                else if (TileSelector.instance.CheckIsOccupied(currentPreset, building.transform.rotation))
+                {
+                    indicator.transform.GetChild(0).GetComponent<MeshRenderer>().material = unplaceableMaterial;
+                    canPlace = false;
+                }
+                else
+                {
+                    indicator.transform.GetChild(0).GetComponent<MeshRenderer>().material = placeableMaterial;
+                    canPlace = true;
+                }
+            }
+            else
+            {
+                indicator.transform.GetChild(0).GetComponent<MeshRenderer>().material = unplaceableMaterial;
+                canPlace = false;
+            }
+        }
+    }
 
     private void Update()
     {
@@ -47,35 +77,25 @@ public class BuildingSelector : MonoBehaviour
 
         if(isPlacing)
         {
-            if(currentPreset.type == BuildingType.DECORATION)
-            { 
-                if (Input.GetKey(KeyCode.Q))
-                {
+            // If we are placing a prop we use GetKey and 1f for the rotation, if not GetKeyDown and 90f;
+            float rotValue = currentPreset.type == BuildingType.PROP ? 1f : 90f;
 
-                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + 1f, 0f);
-                }
-                else if (Input.GetKey(KeyCode.E))
-                {
-                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - 1f, 0f);
-                }
-            } else
+            if (((!oneDegreeMode && Input.GetKey(KeyCode.Q) && (currentPreset.type == BuildingType.PROP)) || (oneDegreeMode && Input.GetKeyDown(KeyCode.Q) && (currentPreset.type == BuildingType.PROP))) || Input.GetKeyDown(KeyCode.Q))
             {
-                if (Input.GetKeyDown(KeyCode.Q))
-                {
 
-                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + 90f, 0f);
-                }
-                else if (Input.GetKeyDown(KeyCode.E))
-                {
-                    building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - 90f, 0f);
-                }
+                building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + rotValue, 0f);
+                indicator.transform.GetChild(0).rotation = Quaternion.Euler(0, building.transform.rotation.eulerAngles.y, 0);
             }
-            
+            else if (((!oneDegreeMode && Input.GetKey(KeyCode.E) && (currentPreset.type == BuildingType.PROP)) || (oneDegreeMode && Input.GetKeyDown(KeyCode.E) && (currentPreset.type == BuildingType.PROP))) || Input.GetKeyDown(KeyCode.E))
+            {
+                building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - rotValue, 0f);
+                indicator.transform.GetChild(0).rotation = Quaternion.Euler(0, building.transform.rotation.eulerAngles.y, 0);
+            }
 
 
             if (canPlace && Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
             {
-                if(!TileSelector.instance.CheckIsOccupied() || currentPreset.type == BuildingType.DECORATION)
+                if(canPlace || currentPreset.type == BuildingType.PROP)
                 {
                     audioPlayer.volume = 1f;
                     audioPlayer.PlayOneShot(placeSound);
@@ -119,7 +139,11 @@ public class BuildingSelector : MonoBehaviour
         indicator.SetActive(true);
 
         building = Instantiate(preset.prefab.transform.GetChild(0).gameObject, indicator.transform);
-        building.GetComponentInChildren<MeshRenderer>().material = placeableMaterial;
+
+        indicator.transform.GetChild(0).localPosition = building.transform.localPosition;
+        indicator.transform.GetChild(0).localScale = new Vector3(preset.hitboxSize.x, 3f, preset.hitboxSize.z);
+
+       
 
         if(chooseTileRoutine != null)
             StopCoroutine(chooseTileRoutine);
@@ -131,7 +155,7 @@ public class BuildingSelector : MonoBehaviour
         if(isPlacing)
         {
            
-            Destroy(indicator.transform.GetChild(0).gameObject);
+            Destroy(indicator.transform.GetChild(1).gameObject);
             indicator.SetActive(false);
             isPlacing = false;
             currentPreset = null;
@@ -190,37 +214,10 @@ public class BuildingSelector : MonoBehaviour
     {
         while(isPlacing)
         {
-            if(currentPreset.type == BuildingType.DECORATION)
-               currentPos = TileSelector.instance.GetFreeForm();
-            else
-                currentPos = TileSelector.instance.GetCurrentTile();
+            currentPos = TileSelector.instance.GetFreeForm();
 
 
             indicator.transform.position = currentPos;
-
-            if(LoCManager.instance.hope >= currentPreset.cost)
-            {
-                if(currentPreset.type == BuildingType.DECORATION)
-                {
-                    building.GetComponentInChildren<MeshRenderer>().material = placeableMaterial;
-                    canPlace = true;
-                }
-                else if (TileSelector.instance.CheckIsOccupied())
-                {
-                    building.GetComponentInChildren<MeshRenderer>().material = unplaceableMaterial;
-                    canPlace = false;
-                }
-                else
-                {
-                    building.GetComponentInChildren<MeshRenderer>().material = placeableMaterial;
-                    canPlace = true;
-                }
-            } else
-            {
-                building.GetComponentInChildren<MeshRenderer>().material = unplaceableMaterial;
-                canPlace = false;
-            }
-
 
             yield return new WaitForSeconds(UPDATE_TIMER);
         }
@@ -237,5 +234,10 @@ public class BuildingSelector : MonoBehaviour
 
             yield return new WaitForSeconds(UPDATE_TIMER);
         }
+    }
+
+    public void ChangeDegreeMode()
+    {
+        oneDegreeMode = !oneDegreeMode;
     }
 }

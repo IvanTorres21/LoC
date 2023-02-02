@@ -461,6 +461,87 @@ public sealed class SpriteRendererZSerializer : ZSerializer.Internal.ZSerializer
     }
 }
 [System.Serializable]
+public sealed class RigidbodyZSerializer : ZSerializer.Internal.ZSerializer {
+    public UnityEngine.Vector3 velocity;
+    public UnityEngine.Vector3 angularVelocity;
+    public System.Single drag;
+    public System.Single angularDrag;
+    public System.Single mass;
+    public System.Boolean useGravity;
+    public System.Single maxDepenetrationVelocity;
+    public System.Boolean isKinematic;
+    public System.Boolean freezeRotation;
+    public UnityEngine.RigidbodyConstraints constraints;
+    public UnityEngine.CollisionDetectionMode collisionDetectionMode;
+    public UnityEngine.Vector3 centerOfMass;
+    public UnityEngine.Quaternion inertiaTensorRotation;
+    public UnityEngine.Vector3 inertiaTensor;
+    public System.Boolean detectCollisions;
+    public UnityEngine.Vector3 position;
+    public UnityEngine.Quaternion rotation;
+    public UnityEngine.RigidbodyInterpolation interpolation;
+    public System.Int32 solverIterations;
+    public System.Single sleepThreshold;
+    public System.Single maxAngularVelocity;
+    public System.Int32 solverVelocityIterations;
+    public UnityEngine.HideFlags hideFlags;
+    public RigidbodyZSerializer (string ZUID, string GOZUID) : base(ZUID, GOZUID) {
+        var instance = ZSerializer.ZSerialize.idMap[ZSerializer.ZSerialize.CurrentGroupID][ZUID] as UnityEngine.Rigidbody;
+        velocity = instance.velocity;
+        angularVelocity = instance.angularVelocity;
+        drag = instance.drag;
+        angularDrag = instance.angularDrag;
+        mass = instance.mass;
+        useGravity = instance.useGravity;
+        maxDepenetrationVelocity = instance.maxDepenetrationVelocity;
+        isKinematic = instance.isKinematic;
+        freezeRotation = instance.freezeRotation;
+        constraints = instance.constraints;
+        collisionDetectionMode = instance.collisionDetectionMode;
+        centerOfMass = instance.centerOfMass;
+        inertiaTensorRotation = instance.inertiaTensorRotation;
+        inertiaTensor = instance.inertiaTensor;
+        detectCollisions = instance.detectCollisions;
+        position = instance.position;
+        rotation = instance.rotation;
+        interpolation = instance.interpolation;
+        solverIterations = instance.solverIterations;
+        sleepThreshold = instance.sleepThreshold;
+        maxAngularVelocity = instance.maxAngularVelocity;
+        solverVelocityIterations = instance.solverVelocityIterations;
+        hideFlags = instance.hideFlags;
+        ZSerializerSettings.Instance.unityComponentDataList.FirstOrDefault(data => data.Type == typeof(UnityEngine.Rigidbody))?.OnSerialize?.Invoke(this, instance);
+    }
+    public override void RestoreValues(UnityEngine.Component component)
+    {
+        var instance = (UnityEngine.Rigidbody)component;
+        instance.velocity = velocity;
+        instance.angularVelocity = angularVelocity;
+        instance.drag = drag;
+        instance.angularDrag = angularDrag;
+        instance.mass = mass;
+        instance.useGravity = useGravity;
+        instance.maxDepenetrationVelocity = maxDepenetrationVelocity;
+        instance.isKinematic = isKinematic;
+        instance.freezeRotation = freezeRotation;
+        instance.constraints = constraints;
+        instance.collisionDetectionMode = collisionDetectionMode;
+        instance.centerOfMass = centerOfMass;
+        instance.inertiaTensorRotation = inertiaTensorRotation;
+        instance.inertiaTensor = inertiaTensor;
+        instance.detectCollisions = detectCollisions;
+        instance.position = position;
+        instance.rotation = rotation;
+        instance.interpolation = interpolation;
+        instance.solverIterations = solverIterations;
+        instance.sleepThreshold = sleepThreshold;
+        instance.maxAngularVelocity = maxAngularVelocity;
+        instance.solverVelocityIterations = solverVelocityIterations;
+        instance.hideFlags = hideFlags;
+        ZSerializerSettings.Instance.unityComponentDataList.FirstOrDefault(data => data.Type == typeof(UnityEngine.Rigidbody))?.OnDeserialize?.Invoke(this, instance);
+    }
+}
+[System.Serializable]
 public sealed class MeshColliderZSerializer : ZSerializer.Internal.ZSerializer {
     public UnityEngine.Mesh sharedMesh;
     public System.Boolean convex;

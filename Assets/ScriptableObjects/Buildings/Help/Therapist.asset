@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bad0a44a47121b24197027f385029957, type: 3}
-  m_Name: RestaurantPreset
+  m_Name: Therapist
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1444670201692080029, guid: 71b135a97aeec364eaf445484a24445f, type: 3}
-  building_name: Restaurant
-  cost: 2800
-  maintenance: 150
-  hope: 4
-  maxPeople: 8
-  size: 1
-  type: 1
-  luxuryValue: 1
-  activityType: 1
+  prefab: {fileID: 6315883660938555112, guid: c93be01556e717648ac7ff5ecc1ea91b, type: 3}
+  building_name: Therapist
+  cost: 2400
+  maintenance: 130
+  hope: 5
+  maxPeople: 4
+  size: 0
+  type: 2
+  luxuryValue: 2
+  activityType: 0
   passiveBuilding: 0
-  relaxIndex: 7
-  happyIndex: 7
+  relaxIndex: 8
+  happyIndex: 5
   xpIndex: 0
-  hitboxSize: {x: 0.873438, y: 0.1, z: 1.197834}
+  hitboxSize: {x: 0.55216455, y: 0.1, z: 0.6290674}
   foodAmount: 0
   trainingAmount: 0
-  hobbyType: 00000000
+  hobbyType: 

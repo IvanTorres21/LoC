@@ -7,5 +7,6 @@ public enum BuildingType
     HELP,
     MAINHALL,
     DECORATION,
-    WORK
+    WORK,
+    PROP
 }

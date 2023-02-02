@@ -22,6 +22,7 @@ public class BuildingPreset : ScriptableObject
     public int relaxIndex;
     public int happyIndex;
     public int xpIndex;
+    public Vector3 hitboxSize;
 
     [Header("Food Data")]
     public int foodAmount;

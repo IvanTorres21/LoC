@@ -32,7 +32,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8381133355186420783}
+  - {fileID: 3902888573581395599}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -47,8 +47,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.077691, y: 0.1, z: 2.7331681}
-  m_Center: {x: 0.05082178, y: 0, z: -0.11994958}
+  m_Size: {x: 1.8751526, y: 0.1, z: 1.0042453}
+  m_Center: {x: -0.017424583, y: 0, z: -0.05724454}
 --- !u!114 &8624152051802698335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,97 +222,180 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &8342211447705377732
+--- !u!1001 &3576809215194128740
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 7436836881309022116}
     m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8796522515929612882, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09613837
+      objectReference: {fileID: 0}
+    - target: {fileID: -8796522515929612882, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.027173996
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.049999952
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.30972242
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
+    - target: {fileID: -8383142372967792237, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18770538
+      objectReference: {fileID: 0}
+    - target: {fileID: -8383142372967792237, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: -4294310105895560952, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.44208324
+      objectReference: {fileID: 0}
+    - target: {fileID: -4294310105895560952, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: -3994393510348014898, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31248972
+      objectReference: {fileID: 0}
+    - target: {fileID: -3994393510348014898, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: -527398295446198555, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31248972
+      objectReference: {fileID: 0}
+    - target: {fileID: -527398295446198555, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
       propertyPath: m_Name
-      value: School
+      value: School (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 926384274147696609, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291037601501527324, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.44313732
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291037601501527324, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1340316932984873000, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09613837
+      objectReference: {fileID: 0}
+    - target: {fileID: 1340316932984873000, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544416927328984173, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09613837
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544416927328984173, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829947878038969830, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18770538
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829947878038969830, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6921875443499158419, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30580276
+      objectReference: {fileID: 0}
+    - target: {fileID: 6921875443499158419, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234717817680187136, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09613837
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234717817680187136, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343846574624685368, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30580276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343846574624685368, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.102
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
---- !u!4 &317616450593691338 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+--- !u!4 &3902888573581395599 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8623578988496293134, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+  m_PrefabInstance: {fileID: 3576809215194128740}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &496895395526258625 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 8439796992618771461, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &797997614270929876 stripped
+--- !u!1 &4423107499934112821 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0db77605dd741b4458f16eac90695bab, type: 3}
+  m_PrefabInstance: {fileID: 3576809215194128740}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7488110231396092154
+--- !u!114 &453306364848258235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 797997614270929876}
+  m_GameObject: {fileID: 4423107499934112821}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
@@ -342,804 +425,5 @@ MonoBehaviour:
   - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
     persistenceType: 0
-    component: {fileID: 5435562956076434025}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 6810978099007627332}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 1764597163459033557}
-    zuid: 
---- !u!4 &1064110548080382405 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -215882532355388927, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &1114592025902457165 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -237935870747133303, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &1187448462451833805 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 7187699964165447689, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1332255163022042675 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7041485905960828407, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &667616840068271427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332255163022042675}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 7075105293382100696}
-    zuid: 
---- !u!1 &1445742187595006641 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -1741428777863833227, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3324345889177251662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445742187595006641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 4009037824611615436}
-    zuid: 
---- !u!33 &1582825822212441238 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -1859372370622095534, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &1764597163459033557 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -1461304994638716399, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &1772196681371767367 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -1486919727163422333, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2268736861108751477 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7834382342689249201, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2274276559641728529 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7803233369086250453, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2543667621069742755 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5803329185781610855, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &890816415517166388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2543667621069742755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 317616450593691338}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 5311985803107611771}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 1187448462451833805}
-    zuid: 
---- !u!1 &3109536646523793672 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2818631016347784500, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1212640928495958959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3109536646523793672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 2268736861108751477}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 1772196681371767367}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 496895395526258625}
-    zuid: 
---- !u!4 &3246431725825230370 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6829947878038969830, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3279308467100766570 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6793412521552628398, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4901065213342664413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3279308467100766570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 3246431725825230370}
-    zuid: 
---- !u!1 &3709333160349737960 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -4557836579114829780, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7972874573813390761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3709333160349737960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 9150070354660012281}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 1582825822212441238}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 5268802400179758187}
-    zuid: 
---- !u!4 &4009037824611615436 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4294310105895560952, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &4162226981346218452 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 5334037119324981776, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &4403443293150611527 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -3541710275667520637, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4629246265701263178 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -5477749408508380018, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &5268802400179758187 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -4982117246385143889, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &5311985803107611771 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 4211582452701376447, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &5435562956076434025 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4083501151425157549, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5460172654080584755 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4036090604850739191, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6820867772307456048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5460172654080584755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 8068413643157939430}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 1114592025902457165}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 5621177129021378670}
-    zuid: 
---- !u!23 &5531896474938133771 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -4683669308469848369, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &5621177129021378670 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -4771823505371853910, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6064226830926808596 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -6346403996636013104, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1565461029913242353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6064226830926808596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 1064110548080382405}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 7145015009625186246}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 8138121086920516334}
-    zuid: 
---- !u!1 &6199340045362138104 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -6499529959314878404, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3227043819168240116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6199340045362138104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 8320907652079540495}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 4403443293150611527}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 8929131342080840220}
-    zuid: 
---- !u!33 &6810978099007627332 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5962755588348855424, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &7075105293382100696 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1291037601501527324, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &7145015009625186246 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 1219715011810034690, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &7289612400702174111 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 1651865346645141595, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7545501430124210849 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1977780137699864933, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1602436357358204153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7545501430124210849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 8677422120861948503}
-    zuid: 
---- !u!4 &8068413643157939430 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2034991965106683682, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8102188706632055545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 267327213984096573, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6388730335378445651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8102188706632055545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 2274276559641728529}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 7289612400702174111}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 8103132933665293361}
-    zuid: 
---- !u!23 &8103132933665293361 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 266100936513855477, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &8138121086920516334 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 231116373775776042, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &8320907652079540495 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 53111293769073355, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &8381133355186420783 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8667492565302323616 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4928947265700360483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8667492565302323616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 4629246265701263178}
-    zuid: 
-  - typeFullName: UnityEngine.MeshFilter, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 4162226981346218452}
-    zuid: 
-  - typeFullName: UnityEngine.MeshRenderer, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 5531896474938133771}
-    zuid: 
---- !u!4 &8677422120861948503 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8383142372967792237, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &8929131342080840220 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 589928367305001432, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &9150070354660012281 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8268914996780815555, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &9152463214391338645 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2cfb2ff0643e69c418bf54998584c9ea, type: 3}
-  m_PrefabInstance: {fileID: 8342211447705377732}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1815806949634351316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9152463214391338645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d3dbe3a42223b24a8cc44e36ba653fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onPreSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPreLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostSave:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  onPostLoad:
-    m_PersistentCalls:
-      m_Calls: []
-    targetZUIDs: []
-  showSettings: 0
-  groupID: 0
-  _zuid: 
-  _gozuid: 
-  serializedComponents:
-  - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    persistenceType: 0
-    component: {fileID: 8381133355186420783}
+    component: {fileID: 3902888573581395599}
     zuid: 
