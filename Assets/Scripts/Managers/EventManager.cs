@@ -6,8 +6,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using ZSerializer;
-using static System.Net.Mime.MediaTypeNames;
-using static UnityEditor.Progress;
 
 public class EventManager : PersistentMonoBehaviour
 {
