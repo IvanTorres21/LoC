@@ -35777,7 +35777,7 @@ MonoBehaviour:
   isOn: 1
   groupID: 0
   autoSync: 1
-  _zuid: abc19014123f7304b8a5b722df58cee4
+  _zuid: d8b0287c41087bc4b93321b94081c613
   _gozuid: 79200e1e9d199594c94589f4f0987b7d
   hope: 4500
   karmicPower: 30
@@ -35987,7 +35987,7 @@ MonoBehaviour:
     targetZUIDs: []
   showSettings: 0
   groupID: 0
-  _zuid: fc24a5d577bdb494a91e9866bd175027
+  _zuid: 7375b7cb6980a0641a0e175f5c6a1701
   _gozuid: 79200e1e9d199594c94589f4f0987b7d
   serializedComponents:
   - typeFullName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -36011,7 +36011,7 @@ MonoBehaviour:
   isOn: 1
   groupID: 0
   autoSync: 1
-  _zuid: d695f45fb0e012b44b93b486601ccca3
+  _zuid: 6c05c0202468fc146959a994fc0a30b8
   _gozuid: 79200e1e9d199594c94589f4f0987b7d
   day: 0
   time: 0
@@ -36034,7 +36034,7 @@ MonoBehaviour:
   isOn: 1
   groupID: 0
   autoSync: 1
-  _zuid: 4d5f5e20fceaafd46ba3c85f7f0d30d1
+  _zuid: 22c142de9bbda684482b08e21be761b7
   _gozuid: 79200e1e9d199594c94589f4f0987b7d
   lastEvent: 0
   avaliableEvents: 

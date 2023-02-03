@@ -64,8 +64,8 @@ MonoBehaviour:
   isOn: 1
   groupID: 0
   autoSync: 1
-  _zuid: 53b86fcf6faaccc42912a40e2ff83527
-  _gozuid: 62f42c130ed3ee04ba4c9ada16f92433
+  _zuid: 
+  _gozuid: 
   preset: {fileID: 11400000, guid: ff841b4fefd44614aa9a1efb98b3f3cf, type: 2}
   currentTenants: []
 --- !u!114 &1666384355225556499
