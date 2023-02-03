@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 3a6a00fb4e700ef439862f880b1cd612
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824bacd5c2c1ad1488df29488c775555
+      internalID: -2097669788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addc8f82b2cc6ab4a828b6c74e5fcd47
+      internalID: -1206539705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd9c6a5c22001c4cb3865e24a17cfb9
+      internalID: 500077710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd8eebbc9acf943a2170771205e259
+      internalID: -2061031911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_4
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 335
+        width: 950
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb33b172f34dc9d4ea4657177440a604
+      internalID: -693313758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_5
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf909174998dc24ebb75559a528ce11
+      internalID: -1293553120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_6
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 335
+        width: 512
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75015bdf005de8e4081890d4e9d6e6ec
+      internalID: 1329344829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_7
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054b5100133724e4bb8f796ee6fbedbb
+      internalID: 1196944880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfeaa13e3a908b42bf0ec0b1d97379d
+      internalID: 647013289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_9
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefa4861ae07a0745b9c41da7c45b0b4
+      internalID: 926484094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_10
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15672c8c7660fa8478b724b508e17678
+      internalID: -1542663247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_11
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d54b859a5f8f2a43ab292667cd03882
+      internalID: 1306462758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_12
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4528566123e33ca43a24062001070a5b
+      internalID: 195521065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_13
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787e62da3364fad44a845e09ed06f4dd
+      internalID: -347374558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_14
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 60
+        width: 158
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411ae986ad3966e46b87fd0e29dbab26
+      internalID: 1009522338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_15
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 88
+        width: 110
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad568742c6c3ff4ab9619845ee08927
+      internalID: 1956355377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano
+        card_30314_16
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804d7d1bb76bead4a9cc641b90c3023e
+      internalID: -439355776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 615e04397bf43c747b13e24989d946f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_12: 195521065
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_2: 500077710
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_13: -347374558
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_0: -2097669788
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_16: -439355776
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_5: -1293553120
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_3: -2061031911
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_10: -1542663247
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_14: 1009522338
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_9: 926484094
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_6: 1329344829
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_7: 1196944880
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_4: -693313758
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_15: 1956355377
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_11: 1306462758
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_1: -1206539705
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rika Ayano card_30314_8: 647013289
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

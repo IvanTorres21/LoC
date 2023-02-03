@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 840ea73ca6a53ab4e9ee081bdb13ccab
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 112
+        width: 656
+        height: 992
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cceafe143094f44782f1caa55701dc6
+      internalID: -1638619049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_1
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 416
+        width: 686
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf524329b0662449bb3d3a91c315736
+      internalID: 277087639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_2
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 338
+        width: 145
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d03e67765f1c340b8c0286a309802b
+      internalID: 98440912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_3
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 338
+        width: 512
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f380de4da634f4fb09ca6444392481
+      internalID: -653496237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 62
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0704cade9e6a0cb468b41b601ae84f35
+      internalID: 2123742086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_5
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 596
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95298c5ef2f82b4e8ea1a2fa8387299
+      internalID: 1921083520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_6
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 62
+        width: 162
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ac305f66004004aa1568034140a972
+      internalID: -484936408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_7
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 206
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649114024f4473349a5cd61446d36ca6
+      internalID: -723819973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_8
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 181
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e170e55087ee2a54fb5a416528b309ac
+      internalID: -1163342713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_9
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 25
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49277142a2cc15c43abcdda6c24501be
+      internalID: -1307943843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami
+        Anime ver card_13095_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 25
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9484019e48b21954fa5c1911cd53c969
+      internalID: 1755414390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ee5484415f9f7745aaa1b8949de8edf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_1: 277087639
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_3: -653496237
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_2: 98440912
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_9: -1307943843
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_10: 1755414390
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_6: -484936408
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_4: 2123742086
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_5: 1921083520
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_8: -1163342713
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_7: -723819973
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Rena Minami Anime ver card_13095_0: -1638619049
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

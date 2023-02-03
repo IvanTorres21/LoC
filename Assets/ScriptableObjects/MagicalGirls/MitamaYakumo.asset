@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
+  m_Name: MitamaYakumo
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  MG_name: Azusa Mifuyu
+  age: 16
+  skills: 
+  problems: 
+  card: {fileID: -986459694, guid: b6b6cc33695af474183ded46475b5ecf, type: 3}
+  likes: 070000000200000006000000
+  dislikes: 04000000
+  luxuryLevel: 2
+  foodConsumption: 5
+  socialType: 2
+  baseATK: 1600
+  baseDEF: 1400
+  modATK: 1
+  modDEF: 1
+  MAXTIREDNESS: 110
+  depression: 0.1
+  breakingPoint: 3

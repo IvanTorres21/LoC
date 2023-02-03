@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 56fd0c110cfdfe14a8f396b1fd137dfa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a85d2bbe3bd3044aae8f9c3b1863836
+      internalID: -64195906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3247dbf3facd1694b91d8ca0da3fcf28
+      internalID: 1395271450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf5c104be429b845911ec131089bd2e
+      internalID: 513178578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df5cea23f09aca49b765eb36159f26a
+      internalID: 2068365439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_4
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 0
+        width: 1014
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ce9b224b7c704ab3c12854798cd6b
+      internalID: 628160726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_5
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf941be3011ca14fa842ce65cada669
+      internalID: 1956749619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_6
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 335
+        width: 512
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aab992a22d34014faf5de0f80954800
+      internalID: 597216441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_7
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3804ed4e0e93f648bffee6bf5aeedc6
+      internalID: -639134946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115ae6994955a5a429b81d13420eacca
+      internalID: -587339169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_9
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c47f01ace1813a41af9885dd0d81e0f
+      internalID: -113513612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_10
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bac0919f9c7274d836d2686c6e9470
+      internalID: -367554062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_11
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d69739a95247499b3a75136f3bd6f
+      internalID: -1108825546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_12
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce376199cd5a7d74f9ee79a5265c023e
+      internalID: 1764086993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_13
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b9e3d04d04c424992c3165b6693972
+      internalID: 933395729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_14
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 60
+        width: 162
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e073bb0e01efc547b4ffda331452a6e
+      internalID: -75342365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_15
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 86
+        width: 109
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23efb47398987c74fbebdba21a6ed793
+      internalID: 1919462297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko
+        card_30194_16
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283cc310fdac527468a890428a51f7aa
+      internalID: -2014385677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 17a81000b77e1e0459bf333a13ba542d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_1: 1395271450
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_15: 1919462297
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_4: 628160726
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_12: 1764086993
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_2: 513178578
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_5: 1956749619
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_8: -587339169
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_11: -1108825546
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_14: -75342365
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_7: -639134946
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_10: -367554062
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_16: -2014385677
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_13: 933395729
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_0: -64195906
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_3: 2068365439
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_6: 597216441
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ayaka Mariko card_30194_9: -113513612
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

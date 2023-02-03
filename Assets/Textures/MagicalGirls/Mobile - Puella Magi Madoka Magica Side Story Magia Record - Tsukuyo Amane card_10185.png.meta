@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 819eb98d4e8a2be4fa48e2a0f8130cb4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73760e1a85959e54085ba16cbb98c54b
+      internalID: -909167696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef41f2e88ee835548ac9d6d2e3482a2c
+      internalID: 1618234040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd918af0f4f3c4aa7ce391d0435100
+      internalID: 133510684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada98de1c2fc8c24bb10cb8fe788d785
+      internalID: -665984761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_4
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 761
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a213fe29def2f4e96d42c35376e276
+      internalID: -1189419215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_5
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 335
+        width: 882
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4997d287b31e8b840851b7589db9b69f
+      internalID: 183022670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_6
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfc526ed80741a44a14b495a09d6a2c
+      internalID: 979180614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_7
+      rect:
+        serializedVersion: 2
+        x: 3886
+        y: 335
+        width: 498
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0a538f17aeaeb42966ce6b3f0ea2e8
+      internalID: 683659916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_8
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed2a95b434e0994a9db8eb18495fd87
+      internalID: -38418154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_9
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 60
+        width: 161
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde804702a14f1a45a5d335e81abdf6e
+      internalID: 217427476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_10
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 86
+        width: 106
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf7206b3d814524598970d2e6ca3651
+      internalID: -745589923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_11
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 156
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83327da78a88afd44a847dca7dfab179
+      internalID: 2130293459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fe642e65a0b354b94dfb1f76dbe718
+      internalID: -325899473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_13
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f46b29699fe7b4c803e4e10c99267a
+      internalID: 1209392869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_14
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aef9615bdb8d54d93471aa2d37adef
+      internalID: -1868270604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_15
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee39780ece5f5a54687e668f304ac989
+      internalID: -987919449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_16
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f51539b775af984f8fea9266ec01c0e
+      internalID: 2025661703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_17
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c150b2e31b08e47b18ea8ba9530a80
+      internalID: 1757883743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo
+        Amane card_10185_18
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe364267dd60bbc49b5b36655b847a09
+      internalID: 1188415590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 04e179c72c40149488b2413a480a7fac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_10: -745589923
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_18: 1188415590
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_8: -38418154
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_7: 683659916
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_0: -909167696
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_15: -987919449
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_12: -325899473
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_5: 183022670
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_1: 1618234040
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_2: 133510684
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_13: 1209392869
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_9: 217427476
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_17: 1757883743
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_14: -1868270604
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_16: 2025661703
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_11: 2130293459
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_3: -665984761
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_6: 979180614
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukuyo Amane card_10185_4: -1189419215
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

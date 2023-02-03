@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: b6b6cc33695af474183ded46475b5ecf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6384c767146ca474ca3997d199d99ad2
+      internalID: 1201191242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a03d1d6c5e89e4fa5b10370d414cfd
+      internalID: -1610158262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d77d02013359444884dfbc808f44abb
+      internalID: -986459694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2299e0a523a0f42a73f92c2797eee9
+      internalID: 1790914885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_4
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 335
+        width: 788
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349f2aee41d6e0e4294f9eb41249e278
+      internalID: 1304484896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_5
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 920
+        width: 26
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf554290c5bbe2146b7fd0d87545a24a
+      internalID: 1988359417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_6
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b706c6d7b1b556d45ace80a63956f333
+      internalID: -581695186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_7
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 335
+        width: 506
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e742794cead9443927d7de7f271b49
+      internalID: 111651510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf676252b135c87459146a75f9210ff4
+      internalID: -997081991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_9
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9027f53f6e04b34eb7ee1276a1cd012
+      internalID: 647033964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_10
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879b616de4364fc438ea443cb10d64ca
+      internalID: -2065557086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_11
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f65a66239767154ea1c0a325f5a036d
+      internalID: -812282994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_12
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404290dc706154a4788e53bb9ac17f30
+      internalID: -2050237703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_13
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc9a217daf145b4583a3b929d7e22dd
+      internalID: 764340044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_14
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810e3f6a0a227c24694094bd6eda2079
+      internalID: 813001904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_15
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 60
+        width: 162
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a79c6019812f54ab4d0523f843be83
+      internalID: 329007704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_16
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 88
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e9651419e0e654f81b9896e373c350
+      internalID: 1122463351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo
+        card_10175_17
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c69d5dd558466d4bb730de24dc7df20
+      internalID: 77420349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6d16e9ff9b6069d40914e012582b8379
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_9: 647033964
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_7: 111651510
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_6: -581695186
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_14: 813001904
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_11: -812282994
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_1: -1610158262
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_0: 1201191242
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_12: -2050237703
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_17: 77420349
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_2: -986459694
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_3: 1790914885
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_4: 1304484896
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_15: 329007704
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_13: 764340044
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_5: 1988359417
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_8: -997081991
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_16: 1122463351
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mitama Yakumo card_10175_10: -2065557086
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

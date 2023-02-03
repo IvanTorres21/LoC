@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 551febfeecce8d842b476e1c0c1d62d2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34d99976caee414ca7dc4201c197630
+      internalID: -215165481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b097bfa53f0f4245a6c6bf553192c4d
+      internalID: -428424026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbcc843303249c42ba92266b378fd94
+      internalID: -1901404194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e443a79b65e24145bb8e85c981c204e
+      internalID: 1414042216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_4
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1004
+        width: 47
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c64e2fa396a33f418bb6ebd890bc4a8
+      internalID: -1242796357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_5
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 375
+        width: 622
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022b5f4060a242b429017b8da4c681af
+      internalID: -554364794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_6
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 827
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c04847393e5f9348ba3d93db68cf8b9
+      internalID: -98661135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_7
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a925cfa328d964aa71294a26a6f25f
+      internalID: 595465434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_8
+      rect:
+        serializedVersion: 2
+        x: 3909
+        y: 775
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e6b5a92c39ead48a76e41bc9d16faa
+      internalID: -900590716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_9
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 335
+        width: 437
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e96f0b4df71a643bd5f341326673af
+      internalID: -1656072666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_10
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 507
+        width: 160
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e48b7269f1fe94581069e941872a19
+      internalID: 1022584215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_11
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 629
+        width: 62
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b46ee2f8ed60864c8dc15602f968daa
+      internalID: -1952287646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_12
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 586
+        width: 100
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136991b7a356b084bb01ad69c06bc8e6
+      internalID: -1237203028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_13
+      rect:
+        serializedVersion: 2
+        x: 3926
+        y: 336
+        width: 126
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf28a143a71cf0469253c2d5dcea8b2
+      internalID: 1142014982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_14
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1b4b7d27c7f1946a74a516d01ab3bc
+      internalID: 1035327837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_15
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3c2d9f683ac3441a67da7cdd8fde76
+      internalID: -1240524069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_16
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4b613f42ebffc46a95eafba6269525
+      internalID: -1796018999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_17
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fd144efe94d20429b7ee97417db74d
+      internalID: 394516710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_18
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37020dbe744b9a46a81638aa0baa988
+      internalID: -737491597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_19
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3402d15713da5e54cb8470844f9d1df6
+      internalID: -2005622514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_20
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6904259aedd804fa1d3c109aa5ab40
+      internalID: 802344663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_21
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 60
+        width: 158
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64695ac0843448040b0bfe31deac1ee0
+      internalID: 508220491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_22
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 88
+        width: 118
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780d93011a9a3844bb0de6ddb6c4d2ba
+      internalID: 462127262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa
+        card_10065_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8f0dc1fc2a5e34884c7ec337826d6b
+      internalID: 1047622936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a82b9e9d4819cd24693e6c4eb8cff490
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_8: -900590716
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_19: -2005622514
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_21: 508220491
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_17: 394516710
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_14: 1035327837
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_2: -1901404194
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_10: 1022584215
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_12: -1237203028
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_23: 1047622936
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_4: -1242796357
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_3: 1414042216
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_7: 595465434
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_0: -215165481
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_9: -1656072666
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_18: -737491597
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_6: -98661135
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_22: 462127262
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_13: 1142014982
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_1: -428424026
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_15: -1240524069
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_5: -554364794
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_11: -1952287646
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_20: 802344663
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Mifuyu Azusa card_10065_16: -1796018999
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

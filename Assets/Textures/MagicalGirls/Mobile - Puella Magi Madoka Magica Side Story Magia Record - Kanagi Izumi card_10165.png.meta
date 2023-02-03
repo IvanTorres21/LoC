@@ -1,0 +1,1055 @@
+fileFormatVersion: 2
+guid: e1e815cf61a39504f989f44971c9ceb3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d5fcc42dd9b9a4bb6555112265a171
+      internalID: -773094174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597e78904443b37498b4da56fb0b51a3
+      internalID: 492362439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ae03c277171e747aef29da773fffef
+      internalID: 794310980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f05c958829dec34f9905b89d444f41e
+      internalID: -287135306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_4
+      rect:
+        serializedVersion: 2
+        x: 2786
+        y: 0
+        width: 860
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4460e95ca1391b4f9e2e429ed145713
+      internalID: 156612157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_5
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 1008
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8598fe3b79b2ea64c91fd102b3f944fd
+      internalID: -1246129784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_6
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 962
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136d801ff7071714b94e44f77f1032ec
+      internalID: -286842246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_7
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 944
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d863d5ce6b9a7644a50692437183209
+      internalID: -2025858505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_8
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 941
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0411cfce342a46943b101f82ba3f4ce7
+      internalID: -695246417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_9
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 922
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce65a7e4637184f45b3e097e31b717bb
+      internalID: 731788824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_10
+      rect:
+        serializedVersion: 2
+        x: 3648
+        y: 904
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1fb9acecb4433479d547fb042125a1
+      internalID: -1884156998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_11
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 904
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae093af7feb7162459612033751a085b
+      internalID: 817369051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_12
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 898
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24200acb2c3086c4abb6907f052c10a3
+      internalID: 1151625802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_13
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 893
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2ee7b0368d1ab4f820e5d3e8f5fc3a
+      internalID: -1734021178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_14
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 887
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193718c624a09954bb816cf5917855fe
+      internalID: 1265757713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_15
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 887
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9251527844a534bb9a4ca2c4dc658d
+      internalID: -1765176221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_16
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 869
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d18dca6edbf5ca4fb5f21c8249489d7
+      internalID: 39224992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_17
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 859
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860b18f55a1f8354e898bb2e0fd6f6cf
+      internalID: 1619621163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_18
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 846
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d2369e3209ac749adb7ac1606c6ed4
+      internalID: 1457243176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_19
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba30a3c6a8203244aa48ee60fc1cc53
+      internalID: 1571930255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_20
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 335
+        width: 510
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fdf8b5c62972249bc733a26456a81d
+      internalID: 1445641221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_21
+      rect:
+        serializedVersion: 2
+        x: 3661
+        y: 836
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2cd91a93ae5694aa6166c34ec754a2
+      internalID: 1203374006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_22
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 830
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697a87a3ae0ab8144a9945966aec0276
+      internalID: 522306790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_23
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 826
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d78e8563622b04b933e59a12237014
+      internalID: -1788240382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_24
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 818
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620b3223a247eda438ad9ba88dae1abf
+      internalID: 1517252947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_25
+      rect:
+        serializedVersion: 2
+        x: 3649
+        y: 809
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04d569434f3da9499879cb1e78e7a7d
+      internalID: 465610367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_26
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 790
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb01f9a39246bcc42bbe4c590268d300
+      internalID: 291260480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_27
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 795
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e62ea0c679df74490d9aa377167371
+      internalID: 2069822460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_28
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 785
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68810d8a0e7bc5a45bc03c2fce41cb35
+      internalID: 1550896107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_29
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 609
+        width: 112
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cf6e5bd3b233e4dbf65c08c95505d6
+      internalID: 2044352706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_30
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08ecffa054ba04daaae1967ff2797b
+      internalID: -1476107334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4752ca40978e5054f82d524b847ed710
+      internalID: 1762943286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_32
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee7ec67455c6af47b79922ee1359981
+      internalID: 100293015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_33
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f24b18ebb5350a4c80c9d94420cacf9
+      internalID: 829243371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_34
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec5f392acdad6044bc77f1a776a0367
+      internalID: -1642572037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_35
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b8875435ad7be48b5411fb62f8d138
+      internalID: 692345214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_36
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2dbc8a13e9fd85479ae1beff1f3de34
+      internalID: 764397998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_37
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 60
+        width: 162
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c17bf6808eb01c46ab1bdd7821034e6
+      internalID: 2045750865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_38
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 88
+        width: 114
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e371e0cc2b3813e4e8559f130fcdb166
+      internalID: 435231602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi
+        card_10165_39
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ec94748e8a64448bc0ceb5461c2bfe
+      internalID: 1944465934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1ae1bde2b52fe5f4594399f747b3d73d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_2: 794310980
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_34: -1642572037
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_26: 291260480
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_4: 156612157
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_18: 1457243176
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_9: 731788824
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_20: 1445641221
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_7: -2025858505
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_11: 817369051
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_25: 465610367
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_1: 492362439
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_21: 1203374006
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_30: -1476107334
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_3: -287135306
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_37: 2045750865
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_24: 1517252947
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_35: 692345214
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_39: 1944465934
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_12: 1151625802
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_0: -773094174
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_36: 764397998
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_19: 1571930255
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_10: -1884156998
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_6: -286842246
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_16: 39224992
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_17: 1619621163
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_28: 1550896107
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_27: 2069822460
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_15: -1765176221
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_29: 2044352706
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_14: 1265757713
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_13: -1734021178
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_32: 100293015
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_23: -1788240382
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_5: -1246129784
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_8: -695246417
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_31: 1762943286
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_22: 522306790
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_38: 435231602
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Kanagi Izumi card_10165_33: 829243371
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

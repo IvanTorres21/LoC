@@ -1,0 +1,549 @@
+fileFormatVersion: 2
+guid: bda5b639c4081574aab46ef84cd13966
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772d4899958e9d64bb1c9ae43e1e6ce2
+      internalID: 1666976190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 336
+        width: 889
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4064974aa1a7a64e9ec7a51800c897a
+      internalID: -1942275525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_2
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 387
+        width: 148
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3bbdca42a6c774da55101107f0eb55
+      internalID: 275671207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_3
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 403
+        width: 493
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e027dc0168a419f409d0a24ccd00ae60
+      internalID: 634239420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_4
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc562e9a8d81ddd478a8e0b7fa391834
+      internalID: 350738323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_5
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 336
+        width: 905
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f0163c169cb8a4fa1abcf05fbab980
+      internalID: -85658145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_6
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 387
+        width: 149
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e4dd897218176478d0cb41e0128fe5
+      internalID: 149025320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_7
+      rect:
+        serializedVersion: 2
+        x: 4216
+        y: 401
+        width: 514
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910cf840fd359314e8a58b22394e69d5
+      internalID: -1182820161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_8
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 0
+        width: 752
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2341a389b146644298c9c1cdea0e02b
+      internalID: 83302897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_9
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 110
+        width: 206
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596eb6a35e6236548bd2c639f3fe0a51
+      internalID: 1723108883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_10
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 110
+        width: 164
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411d218abf091ba45bcd57c0d499a645
+      internalID: 1572408131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_11
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 20
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ee40d18351c1149800f74cc10b4fd1
+      internalID: -1428263157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_12
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 19
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0b9d3dd6e5804469f467b7c3414e97
+      internalID: -87741582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_13
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 0
+        width: 652
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1eccb2550c9e424894f8726e998984f
+      internalID: 1309897690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_14
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 110
+        width: 206
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b839c3487e41e49a488fc6b4d6693c
+      internalID: -645886988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_15
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 110
+        width: 164
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130056c845d4ce14d9b813009c7cd7a6
+      internalID: 969499169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_16
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 27
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e916294f8c2fe084095aec7bc2195eda
+      internalID: -970057854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor
+        card_30525_17
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 136
+        width: 116
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df08a76385499f41a91b3cf8244b36a
+      internalID: -79754868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8ea67c5ade33a4a48a59d88c010910c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_17: -79754868
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_16: -970057854
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_13: 1309897690
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_8: 83302897
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_0: 1666976190
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_4: 350738323
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_9: 1723108883
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_2: 275671207
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_11: -1428263157
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_3: 634239420
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_10: 1572408131
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_15: 969499169
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_6: 149025320
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_5: -85658145
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_1: -1942275525
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_12: -87741582
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_7: -1182820161
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ashley Taylor card_30525_14: -645886988
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

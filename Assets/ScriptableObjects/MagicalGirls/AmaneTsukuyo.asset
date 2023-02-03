@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
+  m_Name: AmaneTsukuyo
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  MG_name: Amane Tsukuyo
+  age: 16
+  skills: 
+  problems: 
+  card: {fileID: 133510684, guid: 819eb98d4e8a2be4fa48e2a0f8130cb4, type: 3}
+  likes: 020000000600000001000000
+  dislikes: 03000000
+  luxuryLevel: 0
+  foodConsumption: 5
+  socialType: 1
+  baseATK: 1350
+  baseDEF: 1450
+  modATK: 1
+  modDEF: 2
+  MAXTIREDNESS: 110
+  depression: 0.2
+  breakingPoint: 3

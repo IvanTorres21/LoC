@@ -1,0 +1,1147 @@
+fileFormatVersion: 2
+guid: 799b071691dc20e43a777e86a987a91f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714a9486d200df942bda17957ce2d0b0
+      internalID: -2109151861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6036bdb9b2ebdf449baa442634280a47
+      internalID: -352051333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b557e562ed53844479d1a2f43977bfef
+      internalID: 881130113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77169c72fa17eb64fbbd4a95f42f1759
+      internalID: 170997664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_4
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 1076
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a229f9999f7f4e04ab50a322d0a9f3ab
+      internalID: 1943957868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_5
+      rect:
+        serializedVersion: 2
+        x: 3039
+        y: 1082
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623ea9190b375f64d9afe903e3be3de8
+      internalID: 507220257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_6
+      rect:
+        serializedVersion: 2
+        x: 3055
+        y: 1100
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e9dee6bbd990040918fd31143166d0
+      internalID: -2033054057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_7
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 1093
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8727c8fea3c70e45bd49ad80d5a01ee
+      internalID: 997971749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_8
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1092
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5f680fe6eecf54facf89b0221d0e87
+      internalID: -2070937544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_9
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 1086
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9b2baa051b8f4c933ca508f550fe0
+      internalID: 234744579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_10
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 1069
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074b9b6330bf1d4e8d389864d5d3c7b
+      internalID: 1293756419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_11
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 1085
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe550a616699864a9579afb774cbf6f
+      internalID: -1778209501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_12
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1067
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964c3d2d63220d438993b4a8e3864fd
+      internalID: -258271671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_13
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 1096
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20e655b619cabc4bab055cc2d93397c
+      internalID: 1450966820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_14
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 335
+        width: 577
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d584cda37b2007f4787472768539cb03
+      internalID: 497947685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_15
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 1080
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe271ac99f5ee542a9f17d50615a814
+      internalID: 489938545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_16
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 1079
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3079b6222d9af044981e3920d6f28dc5
+      internalID: 1172985333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_17
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 1064
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905b3b01c0f49e1428aa78ddef0527b6
+      internalID: -2047851771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_18
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 1072
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0dc921b7b361b4587590bb3b982aaa
+      internalID: -1121374648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_19
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1063
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb70bb324706f7458747dc079a45796
+      internalID: -780118387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_20
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 1064
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79b800808ecf9b4abfc8c5dd0421046
+      internalID: -1223893853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_21
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 1061
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42a7c809cf260469d7dbb7b1807483
+      internalID: -480931401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_22
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 976
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43287c13e24bf0346aaeb23515215fe3
+      internalID: -961745403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_23
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 924
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0388d8839faa437408ff150d20dfc36d
+      internalID: -1341640717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_24
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 848
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a04f8ba1c1be43b27b731cd0ec5ab
+      internalID: 1977138381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_25
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fd66b580d052040a1edf0ea642735f
+      internalID: -1376057841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_26
+      rect:
+        serializedVersion: 2
+        x: 3878
+        y: 335
+        width: 498
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd321d4273578641a80b395b23771ed
+      internalID: 1357405444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_27
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 835
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eee0e19a81a6f44a9d84fb5a8798f6
+      internalID: -1615539888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_28
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 774
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3cc6b93932c4541b542166ae3b7f86
+      internalID: 810025354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_29
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 761
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130f393798db2a24ca484c09a477308b
+      internalID: 1118046178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_30
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 755
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed40c4bfc88414f4c9641120e9528f5d
+      internalID: -148806952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_31
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 746
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0e1ad81f52608448c1ac144341b814
+      internalID: -2114030862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_32
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 722
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cabb2da09e9fa144be4a22285797be5
+      internalID: -2097195763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_33
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 713
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493d4eecc12aad945b1201623b7c8ace
+      internalID: 102417306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1c5314ba055a74bbcfc9db1d7a8d6c
+      internalID: 1416711788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bcf76f658a56d4eb5cea765ca89a3f
+      internalID: -1180416902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_36
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56713ca26e6e5ca47b935068445d6257
+      internalID: -1879043592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_37
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb13d0f37044014c9e9fee238f6dcf8
+      internalID: 1077069594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_38
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7e87fc4d172014a9494ff76adfd3cd
+      internalID: 1293183405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_39
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7e8fe6bdb64c0468e3dd5339247786
+      internalID: 2113390454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_40
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5285eceeecc440a49bee03b6c8a60821
+      internalID: -94352738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_41
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 60
+        width: 158
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b54e5fedbf80242bcacdf538d95b85
+      internalID: 719337455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_42
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 87
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb8e632d0933ad4bb4dcd83cd0633ab
+      internalID: 1949437902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa
+        Amane card_10194_43
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cbb910412ce204cb219a494d1e843f
+      internalID: -853977628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8270444138e35634ea5429ba2c2625fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_14: 497947685
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_6: -2033054057
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_31: -2114030862
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_24: 1977138381
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_1: -352051333
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_11: -1778209501
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_15: 489938545
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_40: -94352738
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_17: -2047851771
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_4: 1943957868
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_5: 507220257
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_18: -1121374648
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_7: 997971749
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_41: 719337455
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_13: 1450966820
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_26: 1357405444
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_42: 1949437902
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_20: -1223893853
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_3: 170997664
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_35: -1180416902
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_27: -1615539888
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_43: -853977628
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_9: 234744579
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_12: -258271671
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_8: -2070937544
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_25: -1376057841
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_16: 1172985333
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_36: -1879043592
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_29: 1118046178
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_34: 1416711788
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_19: -780118387
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_33: 102417306
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_37: 1077069594
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_2: 881130113
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_38: 1293183405
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_21: -480931401
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_28: 810025354
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_32: -2097195763
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_23: -1341640717
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_39: 2113390454
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_22: -961745403
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_10: 1293756419
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_0: -2109151861
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Tsukasa Amane card_10194_30: -148806952
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

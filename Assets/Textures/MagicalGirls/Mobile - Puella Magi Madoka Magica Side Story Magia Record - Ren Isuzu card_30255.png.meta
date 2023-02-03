@@ -1,0 +1,963 @@
+fileFormatVersion: 2
+guid: c6d57863ba19def4ebd2c646af34f43b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16dc03af8816c749a9f1819af02f5c2
+      internalID: 977185553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 110
+        width: 657
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b64f14ad63f6ad4f9809cbeea0e97e7
+      internalID: 205006848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_2
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 110
+        width: 656
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4dc8f7c342c9a478a71323431a6fe5
+      internalID: -694726608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_3
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 110
+        width: 658
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434bdc9a2c067447bb9a2aeda6ad3ed
+      internalID: 59791549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_4
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 335
+        width: 708
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4b4e435519071468ab49af3946f8ee
+      internalID: 256902852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_5
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 894
+        width: 95
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f3b7bd840e229428a79f1dd93242c4
+      internalID: -1836685703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_6
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 976
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1264da9ae30959649b8bb5e08c463544
+      internalID: 935411134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_7
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 958
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af2747e3f58ebd4c9dcd0bcac185f4b
+      internalID: 1480791092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_8
+      rect:
+        serializedVersion: 2
+        x: 2724
+        y: 913
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a649cf101ce914e90251d36b91d4a4
+      internalID: 263878009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_9
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 919
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdbb12a64785504198dd325f56ea22d
+      internalID: 1869764152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_10
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 917
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3828c1010b9d743b963ae701ba9800
+      internalID: 1072105981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_11
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 888
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae27dcb0e07e14449b8552a4528635d2
+      internalID: -852926684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_12
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 839
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b7a82a107d00f4a9590c2f28ef222a
+      internalID: -895339290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_13
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 335
+        width: 147
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3ffd89db609bb4db2a1422c7cda1e3
+      internalID: 759453907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_14
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 335
+        width: 489
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c6b028213b66247a14c8484ce55bd4
+      internalID: -1317432147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_15
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 772
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f372cf7896fbc9646a9e1ea7bf05f76a
+      internalID: 1841420255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_16
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 683
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4917e131eb5f6d04787c6b14f7c4d9ae
+      internalID: -1837559794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_17
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 614
+        width: 99
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b4fc830b9a15d47b5373ef1d1ea658
+      internalID: -1115042554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_18
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 466
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa3447e4c5c25e4bb8312a21bd8f26d
+      internalID: 1098465131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_19
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 414
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c15fac106521e74bafffa5912e78b85
+      internalID: -1147590236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_20
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 411
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a883997960751e94eb8372da209e5796
+      internalID: -1071668224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_21
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 371
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fd63d83791b8341b8ad52d3e294728
+      internalID: 485754157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_22
+      rect:
+        serializedVersion: 2
+        x: 4369
+        y: 373
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf6065b9cc15c24c8064204eff925c1
+      internalID: -1363679645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_23
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 238
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a79c9b1f043984b8701ff00348c209
+      internalID: 749702181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_24
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 253
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba4fad295a20bc4aae0d89f8095ce98
+      internalID: 321795383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_25
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 259
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ae998a8e48d2e489f6e9ec91a099cf
+      internalID: -1620549864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_26
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 23
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e801c02440b31d340a34fbee6824ae07
+      internalID: -977108316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_27
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 23
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33ec5978262de0469efcc9910b32d30
+      internalID: -612139922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_28
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 16
+        width: 134
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2f3ee43dc53e345bb7e1b1b6fd8178
+      internalID: -297180914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_29
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 25
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a4f56d35b491442882c84af93fec2f
+      internalID: -449552078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_30
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 25
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06a7a512fa3c46459f39db0fab06dc4
+      internalID: -1911795762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_31
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 27
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d86e598b4339cf42ab3f63f15f54a9d
+      internalID: 284100683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_32
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 27
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6641bdfec0c206d44989968bf841e039
+      internalID: 1187546585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_33
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 60
+        width: 204
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48039319d592deb4bb42ccdbd19fc469
+      internalID: -1363456501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_34
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 60
+        width: 159
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2269239c9922c4e4f8f02ee6d16c297b
+      internalID: -1188115147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu
+        card_30255_35
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 0
+        width: 267
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f48066c89302a34ba2f2816803a7bab
+      internalID: -1564159799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0b349c57c136ff54497fea0b5a3f3cb0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_29: -449552078
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_23: 749702181
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_33: -1363456501
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_14: -1317432147
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_26: -977108316
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_12: -895339290
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_7: 1480791092
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_32: 1187546585
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_27: -612139922
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_25: -1620549864
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_22: -1363679645
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_21: 485754157
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_8: 263878009
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_5: -1836685703
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_16: -1837559794
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_3: 59791549
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_18: 1098465131
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_19: -1147590236
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_34: -1188115147
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_4: 256902852
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_6: 935411134
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_30: -1911795762
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_0: 977185553
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_11: -852926684
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_31: 284100683
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_13: 759453907
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_24: 321795383
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_2: -694726608
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_1: 205006848
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_17: -1115042554
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_28: -297180914
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_20: -1071668224
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_15: 1841420255
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_10: 1072105981
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_9: 1869764152
+      Mobile - Puella Magi Madoka Magica Side Story Magia Record - Ren Isuzu card_30255_35: -1564159799
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
