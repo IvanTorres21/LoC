@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
   m_Name: TsukasaAmane
   m_EditorClassIdentifier: 
-  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  prefab: {fileID: 488783767176814087, guid: 0443b7ddf293c114ca61fbaf7476e132, type: 3}
   MG_name: Amane Tsukasa
   age: 16
   skills: 
@@ -23,8 +23,8 @@ MonoBehaviour:
   luxuryLevel: 0
   foodConsumption: 5
   socialType: 1
-  baseATK: 1350
-  baseDEF: 1450
+  baseATK: 1600
+  baseDEF: 1200
   modATK: 1
   modDEF: 2
   MAXTIREDNESS: 110

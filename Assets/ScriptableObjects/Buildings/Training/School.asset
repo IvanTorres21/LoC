@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 5886258414010582228, guid: fca05af686a46ab47adba92e44b7cec6, type: 3}
   building_name: School
-  cost: 3000
-  maintenance: 40
+  cost: 3600
+  maintenance: 300
   hope: 0
   maxPeople: 16
   size: 2

@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 185551438293810925, guid: 619766058b04ac848b8c510fc0dbebaf, type: 3}
   building_name: Apartment Block
-  cost: 2500
-  maintenance: 80
+  cost: 4600
+  maintenance: 200
   hope: 0
   maxPeople: 25
   size: 2
   type: 0
-  luxuryValue: 1
+  luxuryValue: 2
   activityType: 1
   passiveBuilding: 0
   relaxIndex: 15

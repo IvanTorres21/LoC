@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
   m_Name: Ayaka Mariko
   m_EditorClassIdentifier: 
-  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  prefab: {fileID: 488783767176814087, guid: 139eab3020f58be409735232d34f9ea6, type: 3}
   MG_name: Ayaka Mariko
   age: 16
   skills: 
@@ -23,8 +23,8 @@ MonoBehaviour:
   luxuryLevel: 1
   foodConsumption: 5
   socialType: 1
-  baseATK: 1600
-  baseDEF: 1360
+  baseATK: 1360
+  baseDEF: 1000
   modATK: 2
   modDEF: 1
   MAXTIREDNESS: 85

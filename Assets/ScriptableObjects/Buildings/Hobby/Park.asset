@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 7484509567846239521, guid: 7133bfa1827e0664992cb88519ee9977, type: 3}
   building_name: Park
-  cost: 3500
+  cost: 2000
   maintenance: 150
   hope: 0
   maxPeople: 4

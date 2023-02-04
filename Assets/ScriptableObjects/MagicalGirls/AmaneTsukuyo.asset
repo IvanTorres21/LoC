@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
   m_Name: AmaneTsukuyo
   m_EditorClassIdentifier: 
-  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  prefab: {fileID: 488783767176814087, guid: fa9044bcf763c2d42a7b949ab727a28b, type: 3}
   MG_name: Amane Tsukuyo
   age: 16
   skills: 
@@ -24,7 +24,7 @@ MonoBehaviour:
   foodConsumption: 5
   socialType: 1
   baseATK: 1350
-  baseDEF: 1450
+  baseDEF: 1560
   modATK: 1
   modDEF: 2
   MAXTIREDNESS: 110

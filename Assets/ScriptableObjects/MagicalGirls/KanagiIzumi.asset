@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
   m_Name: KanagiIzumi
   m_EditorClassIdentifier: 
-  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  prefab: {fileID: 488783767176814087, guid: 4116d0b0d87b866418b644212efc19a5, type: 3}
   MG_name: Izumi Kanagi
   age: 16
   skills: 
@@ -23,7 +23,7 @@ MonoBehaviour:
   luxuryLevel: 0
   foodConsumption: 5
   socialType: 1
-  baseATK: 1500
+  baseATK: 1800
   baseDEF: 1400
   modATK: 2
   modDEF: 1

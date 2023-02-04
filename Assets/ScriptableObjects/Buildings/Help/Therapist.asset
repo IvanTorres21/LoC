@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 4391970490315051493, guid: fde9920295eea3442815085f10418b28, type: 3}
   building_name: Therapist
-  cost: 3800
-  maintenance: 130
+  cost: 5400
+  maintenance: 450
   hope: 0
   maxPeople: 2
   size: 1

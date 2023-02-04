@@ -87,7 +87,6 @@ public sealed class AudioSourceZSerializer : ZSerializer.Internal.ZSerializer {
     public System.Int32 timeSamples;
     public UnityEngine.AudioClip clip;
     public UnityEngine.Audio.AudioMixerGroup outputAudioMixerGroup;
-
     public System.Boolean loop;
     public System.Boolean ignoreListenerVolume;
     public System.Boolean playOnAwake;
@@ -118,7 +117,6 @@ public sealed class AudioSourceZSerializer : ZSerializer.Internal.ZSerializer {
         timeSamples = instance.timeSamples;
         clip = instance.clip;
         outputAudioMixerGroup = instance.outputAudioMixerGroup;
-
         loop = instance.loop;
         ignoreListenerVolume = instance.ignoreListenerVolume;
         playOnAwake = instance.playOnAwake;
@@ -152,7 +150,6 @@ public sealed class AudioSourceZSerializer : ZSerializer.Internal.ZSerializer {
         instance.timeSamples = timeSamples;
         instance.clip = clip;
         instance.outputAudioMixerGroup = outputAudioMixerGroup;
-
         instance.loop = loop;
         instance.ignoreListenerVolume = ignoreListenerVolume;
         instance.playOnAwake = playOnAwake;

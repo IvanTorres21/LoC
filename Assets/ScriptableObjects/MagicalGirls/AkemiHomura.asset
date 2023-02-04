@@ -22,9 +22,9 @@ MonoBehaviour:
   dislikes: 030000000700000002000000
   luxuryLevel: 0
   foodConsumption: 2
-  socialType: 0
+  socialType: 2
   baseATK: 2300
-  baseDEF: 700
+  baseDEF: 1100
   modATK: 2
   modDEF: 1
   MAXTIREDNESS: 120

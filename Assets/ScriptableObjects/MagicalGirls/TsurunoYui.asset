@@ -23,7 +23,7 @@ MonoBehaviour:
   luxuryLevel: 1
   foodConsumption: 5
   socialType: 1
-  baseATK: 1450
+  baseATK: 1400
   baseDEF: 1200
   modATK: 2
   modDEF: 1

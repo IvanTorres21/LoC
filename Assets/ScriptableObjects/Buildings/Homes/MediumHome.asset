@@ -15,7 +15,7 @@ MonoBehaviour:
   prefab: {fileID: 0}
   building_name: Medium Home
   cost: 650
-  maintenance: 35
+  maintenance: 60
   hope: 0
   maxPeople: 5
   size: 1
@@ -26,6 +26,7 @@ MonoBehaviour:
   relaxIndex: 12
   happyIndex: 12
   xpIndex: 0
+  hitboxSize: {x: 0, y: 0, z: 0}
   foodAmount: 0
   trainingAmount: 0
   hobbyType: 

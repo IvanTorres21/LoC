@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
   m_Name: Kaede Akino
   m_EditorClassIdentifier: 
-  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  prefab: {fileID: 488783767176814087, guid: c13aa383bf3c5d24ebcc8088709d3dbb, type: 3}
   MG_name: Akino Kaede
   age: 16
   skills: 

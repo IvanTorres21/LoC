@@ -37,7 +37,7 @@ public class TutorialController : MonoBehaviour
     {
         // First text 0-13
         texts.Add("Welcome to Law of Cycles Builder!");
-        texts.Add("A certain Goddess is pretty busy with... things. So she decide to have you take care of this place in her stead!");
+        texts.Add("A certain Goddess is pretty busy with... things. So she decided to have you take care of this place in her stead!");
         texts.Add("My! What an honor! You should DEFINITELY spend as much time helping us as your short human life will allow you!");
         texts.Add("But of course, we are not going to just leave you here without knowing what's right or left");
         texts.Add("And that's why I'm here!");
@@ -59,7 +59,7 @@ public class TutorialController : MonoBehaviour
         texts.Add("");
 
         // Third text 19-22
-        texts.Add("Congratulation! You just pried the soul of a girl that has been manipulated into a life of fighting away from her loved ones!");
+        texts.Add("Congratulations! You just pried the soul of a girl that has been manipulated into a life of fighting away from her loved ones!");
         texts.Add("I guess you must take responsability now!");
         texts.Add("Why don't you get her a home to live in? Or are you going to let her be homeless?");
         texts.Add("");
@@ -71,7 +71,7 @@ public class TutorialController : MonoBehaviour
         texts.Add("");
 
         // Fifth text 27-29
-        texts.Add("Now, this isn't a charity... Please, don't let the Goddess hear I said that");
+        texts.Add("Now, this isn't a charity.");
         texts.Add("They have to work! Add a wraith slaying protal and we can make more hope to build more things!");
         texts.Add("");
 
@@ -140,9 +140,111 @@ public class TutorialController : MonoBehaviour
         ControlTutorial();
     }
 
+    public void ButtonNextTutorial()
+    {
+        if (currentText != 13 && currentText != 18 && currentText != 22 && currentText != 26 && currentText != 29)
+        {
+            GoToNextText();
+        }
+
+        if (currentText == 13)
+        {
+            PlaceMainHall();
+        }
+
+        if (currentText == 18)
+        {
+            GetMagicalGirl();
+        }
+
+        if (currentText == 22)
+        {
+            BuildHouse();
+        }
+
+        if (currentText == 26)
+        {
+            AssignGirl();
+        }
+
+        if (currentText == 29)
+        {
+            BuildPortal();
+        }
+
+        if (currentText == texts.Count - 1)
+        {
+            EndTutorial();
+        }
+
+        // Sprite Management
+
+        switch (currentText)
+        {
+            case 2:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 3:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 4:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 6:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 7:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 12:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 15:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 18:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 19:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 21:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 23:
+                ChangeSprite(Expressions.HAPPY);
+                break;
+            case 25:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 26:
+                ChangeSprite(Expressions.SCARED);
+                break;
+            case 27:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 31:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 32:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 33:
+                ChangeSprite(Expressions.SURPRISED);
+                break;
+            case 34:
+                ChangeSprite(Expressions.BASE);
+                break;
+            case 37:
+                ChangeSprite(Expressions.SCARED);
+                break;
+        }
+    }
+
     public void ControlTutorial()
     {
         GoToNextText();
+
         if (currentText == 13)
         {
             PlaceMainHall();

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69f747b71c4ad034888c57ab1dae189c, type: 3}
   m_Name: KokoroAwane
   m_EditorClassIdentifier: 
-  prefab: {fileID: 488783767176814087, guid: 24cfb35c31c0acb42ba8072a463ea7b1, type: 3}
+  prefab: {fileID: 488783767176814087, guid: cdcf5346720c7a444b731b2f9e34b90d, type: 3}
   MG_name: Awane Kokoro
   age: 16
   skills: 
@@ -23,8 +23,8 @@ MonoBehaviour:
   luxuryLevel: 1
   foodConsumption: 5
   socialType: 1
-  baseATK: 1600
-  baseDEF: 1900
+  baseATK: 1500
+  baseDEF: 2000
   modATK: 1
   modDEF: 3
   MAXTIREDNESS: 110

@@ -15,7 +15,7 @@ MonoBehaviour:
   prefab: {fileID: 6081946961392348343, guid: eb7f67b5753a410409c734f5ba8c40f5, type: 3}
   building_name: Mansion
   cost: 8500
-  maintenance: 300
+  maintenance: 400
   hope: 0
   maxPeople: 5
   size: 3

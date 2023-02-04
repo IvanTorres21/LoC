@@ -111,11 +111,6 @@ public class GuiController : MonoBehaviour
 
     private void GetMagicalGirls()
     {
-        if(LoCManager.instance.magicalGirls.Count == scrollViewContent.transform.childCount)
-        {
-            return;
-        }
-
         foreach (Transform tan in scrollViewContent.transform)
         {
             Destroy(tan.gameObject);
@@ -126,6 +121,7 @@ public class GuiController : MonoBehaviour
         {
             GameObject card = Instantiate(prefabCardMg, scrollViewContent.transform);
             card.GetComponent<Image>().sprite = girl.preset.card;
+            Debug.Log(girl.isAlive);
             if (!girl.isAlive)
             {
                 Debug.Log("O h");

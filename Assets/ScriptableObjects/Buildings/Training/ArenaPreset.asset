@@ -15,7 +15,7 @@ MonoBehaviour:
   prefab: {fileID: 5742634685766673696, guid: b5b736cb8bf46fb478aa969b179d3b41, type: 3}
   building_name: Arena
   cost: 2500
-  maintenance: 50
+  maintenance: 200
   hope: 10
   maxPeople: 4
   size: 2

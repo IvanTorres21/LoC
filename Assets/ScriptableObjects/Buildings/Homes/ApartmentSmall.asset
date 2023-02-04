@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 946238978026305810, guid: 17c605c8185ff74448514e127baff9fc, type: 3}
   building_name: Apartment Small
-  cost: 1000
-  maintenance: 45
+  cost: 1800
+  maintenance: 120
   hope: 0
   maxPeople: 6
   size: 1

@@ -16,7 +16,7 @@ MonoBehaviour:
   building_name: Main Hall
   cost: 0
   maintenance: 0
-  hope: 200
+  hope: 50
   maxPeople: 0
   size: 3
   type: 5

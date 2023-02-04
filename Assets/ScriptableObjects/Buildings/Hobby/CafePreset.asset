@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 6315883660938555112, guid: c93be01556e717648ac7ff5ecc1ea91b, type: 3}
   building_name: Cafe
-  cost: 2400
+  cost: 2200
   maintenance: 130
   hope: 5
   maxPeople: 4

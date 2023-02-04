@@ -176,7 +176,7 @@ public class EventManager : PersistentMonoBehaviour
         currentEvent = GameEvents.PETITION;
 
         option.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = "I'll see what I can do!";
-        option.GetComponent<Button>().onClick.AddListener(() => EndEvent());
+        option.GetComponent<Button>().onClick.AddListener(() => ClosePetition());
     }
 
     public void SuicideEvent(MagicalGirl mg)
@@ -257,16 +257,25 @@ public class EventManager : PersistentMonoBehaviour
 
         currentEvent = GameEvents.KILLER;
 
-        foreach (MagicalGirl mgAux in LoCManager.instance.magicalGirls)
+        if(LoCManager.instance.magicalGirls.Count > 1)
         {
-            if(mgAux.isAlive && mgAux.preset != mg.preset)
+            foreach (MagicalGirl mgAux in LoCManager.instance.magicalGirls)
             {
-                GameObject option = Instantiate(guiController.eventOption, guiController.options.transform);
+                if (mgAux.isAlive && mgAux.preset != mg.preset)
+                {
+                    GameObject option = Instantiate(guiController.eventOption, guiController.options.transform);
 
-                option.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mgAux.preset.MG_name;
-                option.GetComponent<Button>().onClick.AddListener(() => currentVictim = mgAux);
-                option.GetComponent<Button>().onClick.AddListener(() => EndEvent());
+                    option.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = mgAux.preset.MG_name;
+                    option.GetComponent<Button>().onClick.AddListener(() => currentVictim = mgAux);
+                    option.GetComponent<Button>().onClick.AddListener(() => ClosePetition());
+                }
             }
+        } else
+        {
+            GameObject option = Instantiate(guiController.eventOption, guiController.options.transform);
+
+            option.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = "We don't have anyone to stop her";
+            option.GetComponent<Button>().onClick.AddListener(() => ClosePetition());
         }
 
         LoCManager.instance.hope += hopeLost;
@@ -451,6 +460,15 @@ public class EventManager : PersistentMonoBehaviour
     public void EndEvent()
     {
         currentEvent = GameEvents.NONE;
+        guiController.CloseEventPanel();
+        foreach (Transform tran in guiController.options.transform)
+        {
+            Destroy(tran.gameObject);
+        }
+    }
+
+    public void ClosePetition()
+    {
         guiController.CloseEventPanel();
         foreach (Transform tran in guiController.options.transform)
         {

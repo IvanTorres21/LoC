@@ -265,7 +265,7 @@ public class LoCManager : PersistentMonoBehaviour
 
 
         if(magicalGirls.Count > 0)
-            avgHappiness = avgHappiness / amount;
+            avgHappiness = avgHappiness / (amount >= 1 ? amount : 1);
 
         if(avgHappiness < 60)
         {
@@ -330,5 +330,23 @@ public class LoCManager : PersistentMonoBehaviour
     public void RemoveNotification(int index)
     {
         notifications.RemoveAt(index);
+    }
+
+    public void ReviveMagicalGirl()
+    {
+        if(karmicPower >= 400)
+        {
+            karmicPower -= 400;
+            magicalGirls.Find(x => !x.isAlive).isAlive = true;
+        }
+    }
+
+    public void RecieveHope()
+    {
+        if (karmicPower >= 50)
+        {
+            karmicPower -= 50;
+            hope += 5000;
+        }
     }
 }

@@ -16,7 +16,7 @@ MonoBehaviour:
   building_name: Wraith Slaying Portal
   cost: 1500
   maintenance: 0
-  hope: 80
+  hope: 85
   maxPeople: 4
   size: 1
   type: 7

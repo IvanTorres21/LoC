@@ -24,7 +24,7 @@ MonoBehaviour:
   foodConsumption: 2
   socialType: 0
   baseATK: 900
-  baseDEF: 1900
+  baseDEF: 1450
   modATK: 1
   modDEF: 3
   MAXTIREDNESS: 90
