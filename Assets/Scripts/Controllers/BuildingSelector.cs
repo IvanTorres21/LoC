@@ -74,18 +74,19 @@ public class BuildingSelector : MonoBehaviour
             EndPlacemet();
         }
 
+
         if(isPlacing)
         {
             // If we are placing a prop we use GetKey and 1f for the rotation, if not GetKeyDown and 90f;
-            float rotValue = currentPreset.type == BuildingType.PROP ? 1f : 90f;
+            float rotValue = !oneDegreeMode ? 1f : 90f;
 
-            if (((!oneDegreeMode && Input.GetKey(KeyCode.Q) && (currentPreset.type == BuildingType.PROP)) || (oneDegreeMode && Input.GetKeyDown(KeyCode.Q) && (currentPreset.type == BuildingType.PROP))) || Input.GetKeyDown(KeyCode.Q))
+            if ((!oneDegreeMode && Input.GetKey(KeyCode.Q)) || (oneDegreeMode && Input.GetKeyDown(KeyCode.Q) ))
             {
 
                 building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y + rotValue, 0f);
                 indicator.transform.GetChild(0).rotation = Quaternion.Euler(0, building.transform.rotation.eulerAngles.y, 0);
             }
-            else if (((!oneDegreeMode && Input.GetKey(KeyCode.E) && (currentPreset.type == BuildingType.PROP)) || (oneDegreeMode && Input.GetKeyDown(KeyCode.E) && (currentPreset.type == BuildingType.PROP))) || Input.GetKeyDown(KeyCode.E))
+            else if ((!oneDegreeMode && Input.GetKey(KeyCode.E) ) || (oneDegreeMode && Input.GetKeyDown(KeyCode.E) ))
             {
                 building.transform.rotation = Quaternion.Euler(building.transform.rotation.eulerAngles.x, building.transform.rotation.eulerAngles.y - rotValue, 0f);
                 indicator.transform.GetChild(0).rotation = Quaternion.Euler(0, building.transform.rotation.eulerAngles.y, 0);

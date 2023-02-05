@@ -36445,7 +36445,7 @@ MonoBehaviour:
   audioPlayer: {fileID: 1821739155}
   placeSound: {fileID: 8300000, guid: 7d909fea23ea805478a83ea8ed3f46d2, type: 3}
   demolishSound: {fileID: 8300000, guid: 9b319a03d406e0d44aaec06a3d3234b3, type: 3}
-  canEscape: 0
+  canEscape: 1
 --- !u!4 &2116597552
 Transform:
   m_ObjectHideFlags: 0
